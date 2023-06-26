@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.wrapper {
+  margin: 0 auto;
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+.google-fonts {
+  width: 100%;
+  padding: 20px;
+}
+
+.Roboto-thin-100 {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Roboto-medium-500 {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Roboto-bold-700 {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Ubuntu-medium-500 {
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Ubuntu-medium-500-italic {
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.font-awsome {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.font-awsome p {
+  width: 33%;
+  text-align: center;
+}
+
+.search::before {
+  font: var(--fa-font-solid);
+  content: "\f002";
+}
