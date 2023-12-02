@@ -1,0 +1,189 @@
+*{
+    box-sizing: content-box;
+}
+
+/* common */
+.flag{
+    min-width: 800px;
+    min-height: 500px;
+    background-color: #8f8f8f;
+    padding: 50px 0;
+}
+
+/* japan */
+.japan-background{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+}
+.japan-circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #d7003a;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* UAE */
+.UAE-background{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.UAE-square-left{
+    flex: 1;
+    background-color: #ff0000;
+}
+
+.UAE-border{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.UAE-border-elem{
+    flex: 1;
+}
+
+.UAE-border-elem-1{
+    background-color: #00732f;
+}
+.UAE-border-elem-2{
+    background-color: #ffffff;
+}
+.UAE-border-elem-3{
+    background-color: #000000;
+}
+
+/* korea */
+.korea-background{
+    position: relative;
+    width: 500px;
+    height: calc(500px/4*3);
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.korea-circle{
+    width: calc(500px/3);
+    height: calc(500px/3);
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform:  translate(-50%,-50%) rotate(0.59rad);
+    top: 50%;
+    left: 50%;
+}
+.korea-semicircle-upper{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
+    border-radius: 50% / 100% 100% 0 0;
+    background-color: #cd2e3a;
+}
+.korea-semicircle-lower{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
+    border-radius: 50% / 0 0 100% 100%;
+    background-color: #0047a0;
+}
+.korea-innercircle-left{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #cd2e3a;
+}
+.korea-innercircle-right{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #0047a0;
+}
+
+.korea-border{
+    width: calc(500px/6);
+    height: calc(500px/9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.korea-border-elem-1{
+    width: calc(500px/6);
+    height: calc(500px/36);
+    background-color: #000000;
+}
+.korea-border-elem-2{
+    width: calc(500px/6);
+    height: calc(500px/36);
+    display: flex;
+    justify-content: space-between;
+}
+.korea-border-elem-2 span{
+    width: calc((500px/72) *11 / 2);
+    height: calc(500px/36);
+    background-color: #000000;
+}
+
+.korea-cross-1{
+    width: calc(500px/72*44);
+    height: calc(500px/6);
+    display: flex;
+    justify-content: space-between;
+    position: absolute; 
+    transform-origin: 50% 50%;
+    transform: translate(-50%,-50%) rotate(0.59rad);
+    top: 50%;
+    left: 50%; 
+}
+.korea-cross-2{
+    width: calc(500px/72*44);
+    height: calc(500px/6);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform-origin: 50% 50%;
+    transform: translate(-50%,-50%) rotate(-0.59rad);
+    top: 50%;
+    left: 50%; 
+}
+.left-upper{
+    position: relative;
+    transform-origin: 50% 50%;
+    transform: translate(-50%,-50%) rotate(-90deg);
+    top: 50%;
+}
+.right-lower{
+    position: relative;
+    transform-origin: 50% 50%;
+    transform: translate(50%,-50%) rotate(-90deg);
+    top: 50%;
+}
+.left-lower{
+    position: relative;
+    transform-origin: 50% 50%;
+    transform: translate(-50%,-50%) rotate(-90deg);
+    top: 50%;
+}
+.right-upper{
+    position: relative;
+    transform-origin: 50% 50%;
+    transform: translate(50%,-50%) rotate(-90deg);
+    top: 50%;
+}

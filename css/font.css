@@ -1,0 +1,23 @@
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.thin{
+    font-weight: 300;
+}
+.medium{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+.italic{
+    font-style: italic;
+}
+.search::before{
+    content: '\f002';
+    font-family: "Font Awesome 6 Free";
+    font: var(--fa-font-solid);
+}
