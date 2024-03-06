@@ -4,61 +4,63 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0">
-        <title>Webフォント、FontAwsome を使ってみよう</title>
-        <link rel="stylesheet" href="../css/font.css">
+        <title>いろいろなフォームを作ってみよう</title>
+        <link rel="stylesheet" href="../css/form.css">
     </head>
     <body>
         <main class="main">
-            <form action="#" class="form">
-                <fieldset class="form-block">
-                    <legend class="form-title">メールアドレス</legend>
-                    <div class="form-input">
-                        <input type="email" id="email" name="email" />
-                    </div>
-                </fieldset>
-                <fieldset class="form-block">
-                    <legend class="form-title">好きなものは？</legend>
-                    <div class="form-input">
-                        <input type="radio" id="radio1" name="radio" value="1" checked>
-                        <label for="radio1">カレー</label>
-                        <input type="radio" id="radio2" name="radio" value="2" checked>
-                        <label for="radio2">お寿司</label>
-                        <input type="radio" id="radio3" name="radio" value="3" checked>
-                        <label for="radio3">焼肉</label>
-                        <input type="radio" id="radio4" name="radio" value="4" checked>
-                        <label for="radio4">その他</label>
-                    </div>
-                </fieldset>
-                <fieldset class="form-block">
-                    <legend class="form-title">好きなものは？</legend>
-                    <div class="form-input">
-                        <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
-                        <label for="checkbox1">カレー</label>
-                        <input type="checkbox" name="checkbox" id="checkbox2" value="2" checked>
-                        <label for="checkbox2">お寿司</label>
-                        <input type="checkbox" name="checkbox" id="checkbox3" value="3" checked>
-                        <label for="checkbox2">焼肉</label>
-                        <input type="checkbox" name="checkbox" id="checkbox4" value="4" checked>
-                        <label for="checkbox2">その他</label>
-                    </div>
-                </fieldset>
-                <fieldset class="form-block">
-                    <legend class="form-title">日付</legend>
-                    <div class="form-input">
-                        <input type="date" name="date" id="date" />
-                    </div>
-                </fieldset>
-                <fieldset class="form-block">
-                    <legend class="form-title">価格</legend>
-                    <div class="form-input">
-                        <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000" />
-                        <output class="price-output" for="price"></output>
-                    </div>
-                </fieldset>
-                <fieldset class="form-block">
-                    <legend class="form-title">パスワード</legend>
-                    <div class="form-input">
-                        <input type="password" name="password" id="pass" minlength="8" required />
-                    </div>
-                </fieldset>
-            </form>
+            <div class="wrapper">
+                <form action="#" class="form">
+                    <fieldset class="form-block">
+                        <legend class="form-title">メールアドレス</legend>
+                        <div class="form-input">
+                            <input type="email" id="email" name="email" />
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-block">
+                        <legend class="form-title">好きなものは？</legend>
+                        <div class="form-input">
+                            <input type="radio" id="radio1" name="radio" value="1" checked>
+                            <label for="radio1">カレー</label>
+                            <input type="radio" id="radio2" name="radio" value="2" checked>
+                            <label for="radio2">お寿司</label>
+                            <input type="radio" id="radio3" name="radio" value="3" checked>
+                            <label for="radio3">焼肉</label>
+                            <input type="radio" id="radio4" name="radio" value="4" checked>
+                            <label for="radio4">その他</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-block">
+                        <legend class="form-title">好きなものは？</legend>
+                        <div class="form-input">
+                            <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+                            <label for="checkbox1">カレー</label>
+                            <input type="checkbox" name="checkbox" id="checkbox2" value="2" checked>
+                            <label for="checkbox2">お寿司</label>
+                            <input type="checkbox" name="checkbox" id="checkbox3" value="3" checked>
+                            <label for="checkbox2">焼肉</label>
+                            <input type="checkbox" name="checkbox" id="checkbox4" value="4" checked>
+                            <label for="checkbox2">その他</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-block">
+                        <legend class="form-title">日付</legend>
+                        <div class="form-input">
+                            <input type="date" name="date" id="date" />
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-block">
+                        <legend class="form-title">価格</legend>
+                        <div class="form-input">
+                            <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000" />
+                            <output class="price-output" for="price"></output>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-block">
+                        <legend class="form-title">パスワード</legend>
+                        <div class="form-input">
+                            <input type="password" name="password" id="pass" minlength="8" required />
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
