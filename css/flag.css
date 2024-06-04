@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/*
+日本
+  赤色 : #d7003a
+  白色 : #ffffff
+
+  UAE
+  緑 : #00732f
+  赤 : #ff0000
+  黒 : #000000
+  白 : #ffffff
+
+  韓国
+  赤 : #cd2e3a
+  青 : #0047a0
+  黒 : #000000
+  白 : #ffffff
+*/
+
+.flag {
+  padding: 6px;
+}
+
+.japan {
+  width: 200px;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.japan .red {
+  width: 72px;
+  height: 72px;
+  background: #d7003a;
+  border: 0;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  margin-top: -36px;
+  left: 50%;
+  margin-left: -36px;
+}
+
+.uae {
+  display: flex;
+  width: 240px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.uae .red {
+  width: 60px;
+  height: 120px;
+  background: #ff0000;
+}
+
+.uae .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.uae .right .green {
+  width: 180px;
+  height: 40px;
+  background: #00732f;
+}
+
+.uae .right .white {
+  width: 180px;
+  height: 40px;
+  background: #ffffff;
+}
+
+.uae .right .black {
+  width: 180px;
+  height: 40px;
+  background: #000;
+}
+
+.korea {
+  width: 180px;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.korea .center {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  transform: rotate(0.59rad);
+  transform-origin: 50% 50%;
+}
+
+.half {
+  width: 60px;
+  height: 30px;
+}
+
+.half.red {
+  border-radius: 50% / 100% 100% 0 0;
+  background: #cd2e3a;
+}
+
+.half.blue {
+  border-radius: 50% / 0 0 100% 100%;
+  background: #0047a0;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle.red {
+  top: 15px;
+  background: #cd2e3a;
+}
+
+.circle.blue {
+  top: 15px;
+  left: 30px;
+  background: #0047a0;
+}
+
+.cross {
+  width: 130px;
+  height: 30px;
+  position: relative;
+  left: 25px;
+  transform-origin: 50% 50%;
+}
+
+.cross.ul-lr {
+  top: -15px;
+  transform: rotate(0.59rad);
+}
+
+.cross.ll-ur {
+  top: -45px;
+  transform: rotate(-0.59rad);
+}
+
+.korea .black {
+  width: 20px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.black.ul {
+  top: 0;
+  left: 0;
+}
+
+.black.lr {
+  top: -30px;
+  left: 110px;
+}
+
+.black.ll {
+  top: 0;
+  left: 0;
+}
+
+.black.ur {
+  top: -30px;
+  left: 110px;
+}
+
+.between {
+  width: 2.5px;
+  height: 30px;
+}
+
+.long {
+  width: 5px;
+  height: 30px;
+  background: #000;
+}
+
+.separated {
+  width: 5px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.short {
+  width: 5px;
+  height: 13.75px;
+  background: #000;
+}
+
+.separated.between {
+  width: 5px;
+  height: 2.5px;
+}
+
+/* 必要なclass
+  center
+    half-red
+    half-blue
+    circle-red
+    circle-blue
+  cross
+    black(flex) u-r, u-l, l-r, l-lで位置指定
+      long
+      separated
+        short
+*/
