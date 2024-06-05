@@ -1,1 +1,69 @@
 いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, user-scalable=yes,initial-scale=1.0">
+        <link rel="stylesheet" href="../css/form.css">
+        <title>色々なフォームを使ってみよう</title>
+    </head>
+    <body>
+        <section class="various-form">
+            <h2 class="contact"><span class="title">アンケート</span></h2>
+            <form action="#" class="form">
+                    <fieldset class="textbox">
+                        <div class="contact-form">
+                            <div class="email-wrap">
+                                <legend class="email">email</legend>
+                                <input type="text" class="text">
+                            </div>
+                        
+                            <div class="radio-wrap">
+                                <legend class="likeness-1">好きなものは？</legend>
+                                <input type="radio" name="radio" id="radio1" value="1">
+                                <label for="radio1">カレー</label>
+                                <input type="radio" name="radio" id="radio2" value="2">
+                                <label for="radio2">お寿司</label>
+                                <input type="radio" name="radio" id="radio3" value="3" checked>
+                                <label for="radio3">焼き肉</label>
+                                <input type="radio" name="radio" id="radio4" value="4">
+                                <label for="radio4">その他</label>  
+                            </div>
+
+                            <div class="check-wrap">
+                                <legend class="likeness-2">好きなものは？</legend>
+                                <input type="checkbox" name="check" id="check1" value="1">
+                                <label for="check1">カレー</label>
+                                <input type="checkbox" name="check" id="check2" value="2">
+                                <label for="check2">お寿司</label>
+                                <input type="checkbox" name="check" id="check3" value="3">
+                                <label for="check3">焼き肉</label>
+                                <input type="checkbox" name="check" id="check4" value="4" checked >
+                                <label for="check4">その他</label>  
+                            </div>
+
+                            <div class="range-wrap">
+                                <legend class="pacentage">好き度</legend>
+                                <input type="range" min="0" max="100" step="1" value="50">
+                            </div>
+
+                            <div class="karender-wrap">
+                                <legend class="date">日付</legend>
+                                <input type="date" min="1945-8-15">
+                            </div>
+                            
+                            <div class="password-wrap">
+                                <legend class="password">パスワード</legend>
+                                <input type="password" name="passward"  autocomplete="new-password" required >
+                            </div>
+                        
+                            <div class="button">
+                                <button class="send-btn">SEND</button>
+                            </div>
+                        </div>                            
+                    </fieldset>
+                
+            </form>
+        </section>
+    </body>

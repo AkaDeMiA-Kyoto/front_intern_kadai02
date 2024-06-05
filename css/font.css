@@ -1,0 +1,70 @@
+.roboto-thin-100 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-medium-500 {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.roboto-bold-700 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-medium-500 {
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-medium-500-Italic {
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kensaku::before {
+content: '\f002';
+font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.eye-check {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    border-bottom: 1px solid #000;
+}
+
+.first {
+transform-origin: 50% 50%;
+transform: rotate(45deg);
+font-size: 10px;
+margin: 5px 10px;
+}
+
+.second {
+    transform-origin: 50% 50%;
+    transform: rotate(225deg);
+    font-size: 50px;
+    margin: 5px 10px;
+}
+
+.third {
+font-size: 5px;
+margin: 5px 10px;
+}
+
+.forth {
+    transform-origin: 50% 50%;
+    transform: rotate(270deg);
+    font-size: 2px;
+    margin: 5px 10px;
+}
