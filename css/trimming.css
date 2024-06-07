@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1 img {
+  object-fit: cover;
+  object-view-box: inset(180px 360px 353px 600px);
+  border-radius: 50%;
+}
