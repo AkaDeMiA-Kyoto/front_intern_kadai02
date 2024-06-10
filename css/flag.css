@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.japan_white{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.japan_red{
+    width: 180px;
+    height: 180px;
+    background-color: #d7003a;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.UAE_background{
+    width: 480px;
+    height: 120px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.UAE_red{
+    width: 120px;
+    height: 120px;
+    background-color: #ff0000;
+    margin:0 0;
+}
+
+.UAE_green{
+    width: 360px;
+    height: 40px;
+    background-color: #00732f;
+    position: relative;
+    top: -100%; /* 親要素の上端から100%上に移動 */
+    margin:0 120px;
+}
+
+.UAE_black{
+    width: 360px;
+    height: 40px;
+    background-color: #000;
+    position: relative;
+    top: -66.6%; /* 親要素の上端から100%上に移動 */
+    margin:0 120px;
+}
