@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.img{
+    width: 200px;
+    height:200px;
+    /*clip-path: circle(50% at center 20%);*/
+    border-radius: 50%; /* 円にする */
+    overflow: hidden; 
+    /*object-fit: cover; /* 縦横比を変えずにいい感じに切り抜く */
+}
+
+.h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
