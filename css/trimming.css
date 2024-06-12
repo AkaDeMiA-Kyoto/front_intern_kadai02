@@ -5,7 +5,7 @@
     /*clip-path: circle(50% at center 20%);*/
     border-radius: 50%; /* 円にする */
     overflow: hidden; 
-    /*object-fit: cover; /* 縦横比を変えずにいい感じに切り抜く */
+    object-fit: cover; 
 }
 
 .h1{
