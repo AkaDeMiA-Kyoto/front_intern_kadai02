@@ -1,0 +1,7 @@
+.man-cut img {
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+    object-position: 65% 35%;
+    border-radius: 50%;
+}

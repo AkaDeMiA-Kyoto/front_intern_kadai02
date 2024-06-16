@@ -1,0 +1,37 @@
+.roboto_thin_100 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto_medium_500{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto_bold_700 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.ubuntu_medium_500 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu_medium_500_italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kensaku::before {
+    content: url(../img/magnifying-glass-solid.svg);
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+

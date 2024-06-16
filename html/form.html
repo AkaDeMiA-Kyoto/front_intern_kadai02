@@ -1,1 +1,68 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samazamana-Form</title>
+</head>
+<body>
+
+<fieldset>
+    <legend>メールアドレス</legend>
+    <label for="email">メールアドレスを入力してください:</label>
+    <input type="email">
+</fieldset>
+    
+<fieldset>
+    <legend>好きなものは？</legend>
+    <div>
+    <input type="radio" id="radio1" name="sukinamono_radio">
+    <label for="radio1">カレー</label>
+
+    <input type="radio" id="radio2" name="sukinamono_radio">
+    <label for="radio2">お寿司</label>
+
+    <input type="radio" id="radio3" name="sukinamono_radio">
+    <label for="radio3">焼肉</label>
+
+    <input type="radio" id="radio4" name="sukinamono_radio">
+    <label for="radio4">その他</label>
+    </div>        
+</fieldset>
+
+<fieldset>
+    <legend>好きなものは？</legend>  
+        <input type="checkbox" id="checkbox1" name="sukinamono_check">
+        <label for="checkbox1">カレー</label>
+
+        <input type="checkbox" id="checkbox2" name="sukinamono_check">
+        <label for="checkbox2">お寿司</label>
+
+        <input type="checkbox" id="checkbox3" name="sukinamono_check">
+        <label for="checkbox3">焼肉</label>
+
+        <input type="checkbox" id="charset4" name="sukinamono_check">
+        <label for="checkbox4">その他</label>
+</fieldset>
+
+<fieldset>
+    <legend>カレンダー</legend>
+    <label for="start">好きな日は？</label>
+    <input type="date" id="date" name="sukina_hi" value="2024-06-13" min="2000-01-01" max="2050-12-31" />
+</fieldset>
+
+<fieldset>
+    <legend>range</legend>
+    <input type="range" id="nagasa" name="nagasa" min="0" max="1000" />
+    <label for="volume">好きな長さは？</label>
+</fieldset>
+
+<fieldset>
+    <legend>パスワードは？</legend>
+    <label for="pass">パスワード(8文字以上)</label>
+    <input type="password" id="pass" name="password" minlength="8" required />
+</fieldset>
+
+    
+</body>
+</html>
