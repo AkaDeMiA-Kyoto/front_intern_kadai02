@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 80px;
+}
+
+.fab {
+  font-size: 48px;
+  color: #1DA1F2;
+  margin: 50px;
+}
+
+.search-btn {
+  font-size: 24px;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.search-btn::before {
+  content: '\f002'; /* Font Awesomeの"magnifying-glass"のUnicode */
+  font-family: "Font Awesome 5 Free"; /* Font Awesomeのファミリーネーム */
+  font-weight: 900; /* Font Awesomeのフォントウェイト */
+  margin-right: 10px;
+}
+
+.fa-circle-notch {
+  font-size: 48px;
+  color: #555;
+  margin: 20px;
+}
