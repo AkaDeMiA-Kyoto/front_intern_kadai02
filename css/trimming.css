@@ -1,0 +1,27 @@
+:root {
+    --circle-diameter: 250px; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle-container {
+    width: var(--circle-diameter);
+    height: var(--circle-diameter);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle-container img {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+
+}

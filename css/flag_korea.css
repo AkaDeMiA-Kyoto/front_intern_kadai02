@@ -1,0 +1,104 @@
+.flag {
+    position: relative;
+    width: 720px;
+    height: 480px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%); 
+}
+
+.red-half {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #cd2e3a;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 100%;
+}
+
+.blue-half {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #0047a0;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 0%;
+}
+
+
+.red-small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #cd2e3a;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 0%;
+    transform: translate(-85.5%,-85.5%);
+}
+
+.blue-small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #0047a0;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 100%;
+    transform: translate(-14.5%,-14.5%);
+}
+
+
+
+
+/* Trigrams */
+.trigram {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+}
+
+.trigram-1 {
+    top: 10%;
+    left: 10%;
+    transform: rotate(45deg);
+}
+
+.trigram-2 {
+    top: 10%;
+    right: 10%;
+    transform: rotate(135deg);
+}
+
+.trigram-3 {
+    bottom: 10%;
+    left: 10%;
+    transform: rotate(-45deg);
+}
+
+.trigram-4 {
+    bottom: 10%;
+    right: 10%;
+    transform: rotate(-135deg);
+}
