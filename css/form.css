@@ -1,0 +1,15 @@
+div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button button{
+    display: block;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 8px 16px;
+    border-radius: 2px;
+    border: none;
+    background: blue;
+    color: white;
+}

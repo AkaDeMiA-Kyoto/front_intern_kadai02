@@ -1,0 +1,186 @@
+.japan_box {
+    position: relative;
+    border: 0.5px solid #000000;
+    width: 250px;
+    height: 150px;
+}
+
+.japan_hinomaru {
+    display: block;
+    color: #d7003a;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #d7003a;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 80px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 120px;
+    margin-top: 100px;
+}
+    
+.boxA, .boxB, .boxC, .boxD, .boxE {
+    font-size: 0px;
+    font-weight: bold;
+    flex-basis: 40px;
+    width: 180px;
+}
+
+.boxA {
+    background-color: #ff0000;
+    width: 60px;
+    flex-basis: 120px;
+}
+
+
+.boxB {
+    background-color: #00732f;;
+}
+
+.boxC {
+    background-color: #ffffff;
+}
+
+.boxD {
+    background-color: #000000;
+}
+
+.korea_box {
+    position: relative;
+    width: 288px;
+    height: 192px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.red {
+    position: absolute;
+    top: 48px;
+    left: 96px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #cd2e3a;
+    z-index: 1;
+}
+
+.blue {
+    position: absolute;
+    top: 96px;
+    left: 96px;
+    width: 96px;
+    height: 48px;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    background: #0047a0;
+    z-index: 2;
+    transform-origin: top;
+    transform: rotate(0.59rad);
+    
+}
+
+.minired {position: absolute;
+    top: 72px;
+    left: 96px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #cd2e3a;
+    z-index: 2;
+    transform-origin: 100% 50%;
+    transform: rotate(0.59rad);
+
+    
+    
+}
+
+.miniblue {position: absolute;
+    top: 72px;
+    left: 144px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #0047a0;
+    z-index: 2;
+    transform-origin: 0% 50%;
+    transform: rotate(0.59rad);
+}
+
+.black {
+    width: 48px;
+    height: 8px;
+    margin-bottom: 4px;
+    background: #000000;
+    z-index: 1;
+}
+
+.black:last-child{
+    margin-bottom: 0;
+}
+
+.hidariue, .hidarishita, .migishita, .migiue {
+    position: relative;
+    width: 48px;
+    height: 32px;
+}
+.hidariue {
+    top: -8px;
+    left: 120px;
+    transform: rotate(-0.98rad);
+    transform-origin: 50% 104px;
+}
+
+.migiue {
+    top: -72px;
+    left: 120px;
+    transform: rotate(0.98rad);
+    transform-origin: 50% 104px;
+}
+
+.hidarishita {
+    top: -40px;
+    left: 120px;
+    transform:rotate(-90deg) rotate(-0.59rad);
+    transform-origin: 50% 104px;
+}
+
+.migishita {
+    top: -104px;
+    left: 120px;
+    transform: rotate(90deg) rotate(0.59rad);
+    transform-origin: 50% 104px;
+}
+.white {
+    width: 4px;
+    height: 8px;
+    z-index: 10;
+    background: #ffffff;
+    position: absolute;
+    left: 22px;
+}
+
+.w0 {
+    position: absolute;
+    top: 12px;
+}
+
+.w1 {
+    position: absolute;
+    top: 0px;
+}
+
+.w2 {
+    position: absolute;
+    top:24px;
+}
+
+
+

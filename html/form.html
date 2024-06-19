@@ -1,1 +1,74 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form action="*">
+        <div>
+            <p>
+                <label for="email">Eメールアドレスをどうぞ：</label>
+                <input type="email" id="email" name="user_email">
+                
+            </p>
+             <fieldset>
+                 <legend>好きなものは？</legend>
+                    <p>
+                        <input type="radio" name="suki_radio" id="curry_radio" value="curry">
+                        <label for="curry_radio">カレー</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="suki_radio" id="osushi_radio" value="osushi">
+                        <label for="osushi_radio">お寿司</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="suki_radio" id="yakiniku_radio" value="yakiniku">
+                        <label for="yakiniku_radio">焼肉</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="suki_radio" id="else_radio" value="else">
+                        <label for="else_radio">その他</label>
+                    </p>
+            </fieldset>
+            <div>
+                <label for="range">どのくらい好き？</label>
+                <input type="range" name="range" id="range" min="0" max="100">
+            </div>
+            <fieldset>
+                <legend>好きなものは？</legend>
+                <p>
+                    <input type="checkbox" name="suki" id="curry_checkbox" value="curry">
+                    <label for="curry_checkbox">カレー</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="suki" id="osushi_checkbox" value="osushi">
+                    <label for="osushi_checkbox">お寿司</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="suki" id="yakiniku_checkbox" value="yakiniku">
+                    <label for="yakiniku_checkbox">焼肉</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="suki" id="else_checkbox" value="else">
+                    <label for="else_checkbox">その他</label>
+                </p>
+            </fieldset>
+                <div>
+                    <label for="carender">日付をどうぞ：</label>
+                    <input type="date" name="carender" id="carender">
+                </div>
+                <div>
+                    <label for="pwd">パスワードをどうぞ：</label>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            <div class="button">
+                <button type="button">送信</button>
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>

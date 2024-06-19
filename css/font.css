@@ -1,0 +1,65 @@
+.wrapper {
+  text-align: center;
+}
+
+.fonts {
+  font-size: 24px;
+}
+
+roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icons {
+  font-size: 24px;
+}
+.icons p {
+  position: relative;
+}
+.search label::before{
+  content: "\f002";
+  font: var(--fa-font-solid);
+  color: blue;
+  margin-right: 2px;
+}
+
+
+
+input, label {
+  vertical-align: middle;
+  height: 24px;
+
+}
+
