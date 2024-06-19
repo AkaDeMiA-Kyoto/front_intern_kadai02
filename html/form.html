@@ -1,1 +1,65 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form action="#" class="form">
+        <fieldset class="form-block">
+            <legend class="form-title">emailアドレス</legend>
+            <div class="form-input">
+                <input type="text" name="address" class="input-text" required>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？（ラジオボタン）：</legend>
+            <div class="form-input">
+                <input type="radio" name="radio" id="radio1" value="1" checked>
+                <label for="radio1">カレー</label>
+                <input type="radio" name="radio" id="radio2" value="2">
+                <label for="radio2">お寿司</label>
+                <input type="radio" name="radio" id="radio3" value="3">
+                <label for="radio3">焼肉</label>
+                <input type="radio" name="radio" id="radio4" value="4">
+                <label for="radio4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？（チェックボックス）：</legend>
+            <div class="form-input">
+                <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+                <label for="checkbox1">カレー</label>
+                <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                <label for="checkbox2">お寿司</label>
+                <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                <label for="checkbox3">焼肉</label>
+                <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                <label for="checkbox4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">カレンダー</legend>
+            <div class="form-input" name="date">
+                <input type="date">
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">range</legend>
+            <div class="form-input">
+                <input type="range" name="range" id="range" min="0" max="100" >
+                <label for="range">程度</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">パスワード</legend>
+            <div class="form-input">
+                <input type="password" name="password" id="password" required>
+            </div>
+        </fieldset>
+        <button class="submit-btn">送信</button>
+    </form>
+</body>
+</html>

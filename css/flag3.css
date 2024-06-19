@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.flag {
+    width: 720px;
+    height: 480px;
+    border: 1px solid #000;
+}
+
+.mark1, .mark2, .mark3, .mark4 {
+    width: 120px;
+    height: 80px;
+    position: relative;
+    transform-origin: 50% 50%;
+    top: 50%;
+    left: 50%;
+}
+
+.mark1 {
+    -webkit-transform: translate(-50%,-50%) rotate(-0.98rad) translate(0,-275%);
+    transform: translate(-50%,-50%) rotate(-0.98rad) translate(0,-275%);
+}
+
+.mark2 {
+    -webkit-transform: translate(-50%,-150%) rotate(0.98rad) translate(0,-275%);
+    transform: translate(-50%,-150%) rotate(0.98rad) translate(0,-275%);
+}
+
+.mark3 {
+    -webkit-transform: translate(-50%,-250%) rotate(0.98rad) translate(0,275%);
+    transform: translate(-50%,-250%) rotate(0.98rad) translate(0,275%);
+}
+
+.mark4 {
+    -webkit-transform: translate(-50%,-350%) rotate(-0.98rad) translate(0,275%);
+    transform: translate(-50%,-350%) rotate(-0.98rad) translate(0,275%);
+}
+
+.mark1-line1, .mark1-line2, .mark1-line3 {
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+.mark1-line2 {
+    top: 30px;
+}
+
+.mark1-line3 {
+    top: 60px;
+}
+
+.mark2-line1, .mark2-line2, .mark2-line4, .mark2-line5 {
+    width: 55px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+.mark2-line2 {
+    left: 65px;
+}
+
+.mark2-line3 {
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+    top: 30px;
+}
+
+.mark2-line4 {
+    top: 60px;
+}
+
+.mark2-line5 {
+    top: 60px;
+    left: 65px;
+}
+
+.mark3-line1, .mark3-line4 {
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+.mark3-line2, .mark3-line3 {
+    width: 55px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+.mark3-line2 {
+    top: 30px;
+}
+
+.mark3-line3 {
+    top: 30px;
+    left: 65px;
+}
+
+.mark3-line4 {
+    top: 60px;
+}
+
+.mark4-line1, .mark4-line2, .mark4-line3, .mark4-line4, .mark4-line5, .mark4-line6 {
+    width: 55px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+
+.mark4-line2 {
+    left: 65px;
+}
+
+.mark4-line3 {
+    top: 30px;
+}
+
+.mark4-line4 {
+    top: 30px;
+    left: 65px;
+}
+
+.mark4-line5 {
+    top: 60px;
+}
+
+.mark4-line6 {
+    top: 60px;
+    left: 65px;
+}
+
+.circle {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    transform-origin: 50% 50%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-183.33%) rotate(0.59rad);
+}
+
+.over-circle {
+    z-index: 1;
+    width: 240px;
+    height: 120px;
+    background-color: #cd2e3a;
+    border-top: 1px solid #000;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.under-circle {
+    z-index: 1;
+    width: 240px;
+    height: 120px;
+    background-color: #0047a0;
+    border-bottom: 1px solid #000;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.small-over-circle {
+    z-index: 2;
+    width: 120px;
+    height: 120px;
+    background-color: #0047a0;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%; 
+}
+
+.small-under-circle {
+    z-index: 2;
+    width: 120px;
+    height: 120px;
+    background-color: #cd2e3a;
+    border-bottom: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 0; 
+}

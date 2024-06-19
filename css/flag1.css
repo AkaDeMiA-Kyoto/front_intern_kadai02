@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.flag {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.circle {
+    width: 36%;
+    height: 0;
+    padding-bottom: 36%;
+    border: 1px solid #d7003a;
+    background-color: #d7003a;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}

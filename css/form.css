@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.form-block {
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+.form-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
