@@ -1,1 +1,62 @@
 いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <fieldset class="form-block">
+        <legend class="form-title">Email</legend>
+        <div class="form-input">
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">好きなものは？</legend>
+        <div class="form-input">
+            <input type="radio" name="radio" id="radio1" value="1" checked>
+                <label for="radio1">カレー</label>
+            <input type="radio" name="radio" id="radio2" value="2" checked>
+                <label for="radio2">お寿司</label>
+            <input type="radio" name="radio" id="radio3" value="3" checked>
+                <label for="radio3">焼肉</label>
+            <input type="radio" name="radio" id="radio4" value="4" >
+                <label for="radio4">その他</label>
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">好きなものは？</legend>
+        <div class="form-input">
+            <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+                <label for="radio1">カレー</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="2" checked>
+                <label for="radio2">お寿司</label>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="3" checked>
+                <label for="radio3">焼肉</label>
+            <input type="checkbox" name="checkbox" id="checkbox4" value="4" >
+                <label for="radio4">その他</label>
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">日付</legend>
+        <div class="form-input">
+            <input type="date">
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">Volume</legend>
+        <div class="form-input">
+            <input type="range" id="volume" name="volume" min="0" max="11" />
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">Password</legend>
+        <div class="form-input">
+            <input type="password" id="pass" name="password" minlength="8" required>
+        </div>
+    </fieldset>
+</body>
+</html>
