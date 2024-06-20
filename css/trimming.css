@@ -1,1 +1,7 @@
-kkk
+.man_image img{
+    object-position: 65% 45%;
+    object-fit: none;
+    width: 550px;
+    height: 550px;
+    border-radius: 50% 50%;
+}
