@@ -1,1 +1,7 @@
-
+.man{
+    width: 500px;
+    height: 500px;
+    object-position: 70% 50%;
+    object-fit: cover;
+    border-radius: 50%;
+}

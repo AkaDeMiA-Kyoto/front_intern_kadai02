@@ -1,1 +1,71 @@
-いろいろなフォームを作ってみよう
+いろいろなフォームを作ってみよう<br>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <li>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+            <label for="password">パスワード</label>
+            <input type="password" id="pass" name="password" minlength="8"required>
+        </li>
+        <li>
+            <label for="date">日付</label>
+            <input type="date" id="date" name="date">
+        </li>
+        <div>
+            <input type="range" id="range" name="range">
+            <label for="range"></label>
+        </div>
+            <fieldset>
+              <legend>好きな食べ物は？</legend>
+              <p>
+                <input type="radio" name="favorite" id="favorite_1" />
+                <label for="favorite_1">カレー</label>
+              </p>
+              <p>
+                <input type="radio" name="favorite" id="favorite_2" />
+                <label for="favorite_2">お寿司</label>
+              </p>
+              <p>
+                <input type="radio" name="favorite" id="favorite_3" />
+                <label for="favorite_3">焼肉</label>
+              </p>
+              <p>
+                <input type="radio" name="favorite" id="favorite_4" />
+                <label for="favorite_4">その他</label>
+              </p>
+            </fieldset>
+            <fieldset>
+                <legend>好きな食べ物は？</legend>
+                <p>
+                  <input type="checkbox" name="favorite" id="favorite_1" />
+                  <label for="favorite_1">カレー</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="favorite" id="favorite_2" />
+                  <label for="favorite_2">お寿司</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="favorite" id="favorite_3" />
+                  <label for="favorite_3">焼肉</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="favorite" id="favorite_4" />
+                  <label for="favorite_4">その他</label>
+                </p>
+              </fieldset>    
+            <div class="button">
+                <button type="submit">メッセージを送信</button>
+            </div>     
+    </form>
+</body>
+</html>
