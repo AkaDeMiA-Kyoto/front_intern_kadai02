@@ -1,1 +1,266 @@
+@charset "UTF-8";
+.square-ja {
+    width: 500px;
+    height: 300px;
+    background: #ffffff;
+    border: 1px solid #000;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
 
+.circle-ja {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background: #d7003a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-UAE {
+    width: 150px;
+    height: 300px;
+    background-color: #ff0000;
+}
+
+.green-UAE {
+    width: 450px;
+    height: 100px;
+    background-color: #00732f;
+}
+
+.white-UAE {
+    width: 450px;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.black-UAE {
+    width: 450px;
+    height: 100px;
+    background-color: #000000;
+}
+
+.UAE {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.korea {
+    width: 720px;
+    height: 480px;
+    background: #ffffff;
+    border: 1px solid #000;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    list-style: none;
+}
+
+.deco1 {
+    width: 520px;
+    height: 120px;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0.59rad);
+}
+
+.RHcircle {
+    width: 240px;
+    height: 120px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    background: #cd2e3a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.BHcircle {
+    width: 240px;
+    height: 120px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    background: #0047a0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.RS {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #cd2e3a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.BS {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #0047a0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+.squaresTL {
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    position: relative;
+}
+
+.squaresBR {
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    position: relative;
+    left: 100%;
+    transform: translate(-200%);
+}
+
+.s1-L {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+}
+
+.s2-L {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+    left: 30px;
+}
+
+.s3-L {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+    left: 60px;
+}
+
+.s1-R {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+    right: 0px;
+}
+
+.s2-R {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+    right: 30px;
+}
+
+.s3-R {
+    width: 20px;
+    height: 120px;
+    background: #000000;
+    position: absolute;
+    right: 60px;
+}
+
+.margin-BR {
+    width: 90px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.deco2 {
+    width: 520px;
+    height: 120px;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-0.59rad);
+}
+
+.squaresBL {
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    position: relative;
+}
+
+.squaresTR {
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    position: relative;
+    left: 100%;
+    transform: translate(-200%);
+}
+
+.margin-TL {
+    width: 30px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.margin1-TR {
+    width: 30px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.margin2-TR {
+    width: 30px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translate(0, -50%);
+}

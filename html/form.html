@@ -1,1 +1,37 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="stylesheet" href="../css/form.css">
+<body>
+    <form class="form">
+        <fieldset class="mailaddress">
+            <legend>メールアドレス</legend>
+            <div class="mailaddress-input"><input type="email"></div>
+        </fieldset>
+        <fieldset class="radio">
+            <legend>好きなものは？(ラジオボタン)</legend>
+            <label><input type="radio" name="radio" value="カレー" /> カレー</label>
+            <label><input type="radio" name="radio" value="お寿司" /> お寿司</label>
+            <label><input type="radio" name="radio" value="焼肉" /> 焼肉</label>
+            <label><input type="radio" name="radio" value="その他" /> その他</label>
+        </fieldset>
+        <fieldset class="checkbox">
+            <legend>好きなものは？(チェックボックス)</legend>
+            <label><input type="checkbox" name="checkbox" value="カレー" /> カレー</label>
+            <label><input type="checkbox" name="checkbox" value="お寿司" /> お寿司</label>
+            <label><input type="checkbox" name="checkbox" value="焼肉" /> 焼肉</label>
+            <label><input type="checkbox" name="checkbox" value="その他" /> その他</label>
+        </fieldset>
+        <fieldset class="calendar">
+            <legend>回答日</legend>
+            <div class="calendar-input"><input type="date"></div>
+        </fieldset>
+        <fieldset class="range">
+            <legend>程度</legend>
+            <div class="range-input"><input type="range"></div>
+        </fieldset>
+        <fieldset class="password">
+            <legend>パスワード</legend>
+            <div class="password-input"><input type="password"></div>
+        </fieldset>
+        <button class="button">送信</button>
+    </form>

@@ -1,1 +1,10 @@
-
+.img-cover {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-image: url(../img/man.jpg);
+    background-position: 68% 30%;
+}
