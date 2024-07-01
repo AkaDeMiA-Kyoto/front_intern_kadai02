@@ -1,1 +1,69 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset = "utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width",user-scalable=yes,initial-scale=1.0>
+<title>Form</title>
+<link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <main class="main">
+        <h2>課題2</h2>
+        <section>
+            <form class="form">
+                <fieldset class="form-block">
+                    <legend class="form-title">メールアドレス</legend>
+                    <div class="form-input">
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+                <fieldset class="form-block">
+                    <legend class="form-title">好きなものは？</legend>
+                    <div class="form-input">
+                        <input type="radio" name="radio" id="radio1" value="1" checked>
+                        <label for="radio1">カレー</label>
+                        <input type="radio" name="radio" id="radio2" value="2">
+                        <label for="radio2">お寿司</label>
+                        <input type="radio" name="radio" id="radio3" value="3">
+                        <label for="radio3">焼肉</label>
+                        <input type="radio" name="radio" id="radio4" value="4">
+                        <label for="radio4">その他</label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-block">
+                    <legend class="form-title">好きなものは？</legend>
+                    <div class="form-input">
+                        <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+                        <label for="checkbox1">カレー</label>
+                        <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                        <label for="checkbox2">お寿司</label>
+                        <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                        <label for="checkbox3">焼肉</label>
+                        <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                        <label for="checkbox4">その他</label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-block">
+                    <legend class="form-title">明日の日付</legend>
+                    <div class="form-input">
+                        <input type="date">
+                    </div>
+                </fieldset>
+                <fieldset class="form-block">
+                    <legend class="form-title">眠気</legend>
+                    <div class="form-input">
+                        <input type="range">
+                    </div>
+                </fieldset>
+                <fieldset class="form-block">
+                    <legend class="form-title">パスワード</legend>
+                    <div class="form-input">
+                        <input type="password">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
