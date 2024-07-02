@@ -1,1 +1,60 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いろいろなフォームを使ってみよう</title>
+</head>
+<body>
+    <h2>フォーム</h2>
+    <form action="#" class="form">
+        <fieldset>
+            <legend>e-mailを教えてください</legend>
+            <input type="email" id="email" pattern=".+@example\.com">
+            <label for="email"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>好きなものは？</legend> 
+            <input type="radio" id ="radiol" name="radio" value="1">
+            <label for="radio1">カレー</label>
+            <input type="radio" id ="radiol" name="radio" value="2">
+            <label for="radio2">お寿司</label>
+            <input type="radio" id ="radiol" name="radio" value="3">
+            <label for="radio3">焼肉</label>
+            <input type="radio" id ="radiol" name="radio" value="4">
+            <label for="radio4">その他</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>好きなものは？</legend> 
+            <input type="checkbox" id ="checkbox" name="checkbox" value="1">
+            <label for="checkbox1">カレー</label>
+            <input type="checkbox" id ="checkbox" name="checkbox" value="2">
+            <label for="checkbox2">お寿司</label>
+            <input type="checkbox" id ="checkbox" name="checkbox" value="3">
+            <label for="checkbox3">焼肉</label>
+            <input type="checkbox" id ="checkbox" name="checkbox" value="4">
+            <label for="checkbox4">その他</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>誕生日の日付は？</legend>
+            <input type="date" id="date" name="date" value="2000-01-01" min="1950-01-01" max="2024-01-01">
+            <label for="date"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Audio settings</legend>
+            <input type="range" id="volume" name="volume" min="0" max="12">
+            <label for="volume">Volume</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Password(８文字以上)</legend>
+            <input type="password" id="pass" name="password" minlength="8" required>
+        </fieldset>
+
+        <input type="submit" value="送信">
+    </form>
+</body>

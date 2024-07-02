@@ -1,26 +1,153 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff; /* 白色 */
-}
-
-.flag {
-    width: 200px;
-    height: 120px;
-    background-color: #d7003a; /* 赤色 */
+@charset "UTF-8";
+.flag_Japan {
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
     position: relative;
+    border: 1px solid #000;
 }
 
-.circle {
-    width: 80px;
-    height: 80px;
-    background-color: #ffffff; /* 白色 */
+.circle_Japan {
+    width: 90px;
+    height: 90px;
+    background-color:  #d7003a;
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    left: 60px;
+    top: 30px;
+    left: 80px;
+    margin: auto;
+}
+
+
+
+.flag_UAE {
+    width: 240px;
+    height: 120px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.line_UAE_red {
+    width: 60px;
+    height: 120px;
+    background-color: #ff0000;
+}
+
+.line_UAE_green {
+    width: 180px;
+    height: 40px;
+    background-color: #00732f;
+}
+
+.line_UAE_white {
+    width: 180px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.line_UAE_black {
+    width: 180px;
+    height: 40px;
+    background-color: #000;
+}
+
+
+
+
+.flag_korea {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    display: flex;
+    position: relative;;
+}
+
+.circle_korea {
+    margin: auto;
+    position: relative;
+    transform: rotate(0.98rad)
+}
+
+.semicircle-upper {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: #cd2e3a
+}
+
+.semicircle-lower {
+    width: 100px;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+    background-color: #0047a0
+}
+
+.mini-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.left-circle {
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #cd2e3a
+}
+
+.right-circle {
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: #0047a0
+}
+
+.big-rectangle {
+    width: 50px;
+    height: calc(200px*2/48);
+    background-color: #000;
+}
+
+.small-rectangle {
+    width: calc(200px*11/96);
+    height: calc(200px*2/48);
+    background-color: #000;
+}
+
+.upper-left {
+    transform:
+        translate(-50%, calc(-200px/24)) 
+        rotate(-0.98rad);
+}
+
+.upper-right {
+    transform:
+        translate(-50%, calc(-200px/24))
+        rotate(0.98rad);
+}
+
+.lower-right {
+    transform:
+        translate(-50%, calc(-200px/24))
+        rotate(calc(90deg + 0.59rad));
+}
+
+.lower-left {
+    transform:
+        translate(-50%, calc(-200px/24))
+        rotate(calc(-90deg - 0.59rad));
+}
+
+.box {
+    width: 50px;
+    height: calc(200px*8/48);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform-origin: 50% calc(200px*26/48);
 }
