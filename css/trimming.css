@@ -1,0 +1,7 @@
+.image_circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("../img/man.jpg");
+    background-position: 60% 40%;
+}

@@ -1,1 +1,65 @@
 いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/my-handling-form-page"  method="post">
+        <ul>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+            </li>
+        </ul>
+        <legend>好きなものは？</legend>
+        <ul>    
+            <li>
+                <label for="title_1">
+                    <input type="radio" id="title_1" name="好きなものは？" value="A" />
+                    カレー
+                </label>
+            </li>
+            <li>
+                <label for="title_2">
+                    <input type="radio" id="title_2" name="好きなものは？" value="A" />
+                    お寿司
+                </label>
+            </li>
+            <li>
+                <label for="title_3">
+                    <input type="radio" id="title_3" name="好きなものは？" value="A" />
+                    焼肉
+                </label>
+            </li>
+            <li>
+                <label for="title_4">
+                    <input type="radio" id="title_4" name="好きなものは？" value="A" />
+                    その他
+                </label>
+            </li>
+        </ul>
+    <fieldset>
+        <legend>好きなものは？</legend>
+            <input type="checkbox" id="title_1" name="カレー" value="A">
+            <label for="title_1">カレー</label>
+            <input type="checkbox" id="title_2" name="お寿司" value="B">
+            <label for="title_2">お寿司</label>
+            <input type="checkbox" id="title_3" name="焼肉" value="C">
+            <label for="title_3">焼肉</label>
+            <input type="checkbox" id="title_4" name="その他" value="D">
+            <label for="title_4">その他</label>
+    </fieldset>
+
+        <legend>日程</legend>
+            <input type="date"></form>
+
+        <legend>程度</legend>
+            <input type="range" id="points" name="points" min="0" max="10">
+
+        <legend>パスワードを入力してください</legend>    
+        <input type="password" name="パスワード">
+</body>
+</html>

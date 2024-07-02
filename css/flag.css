@@ -2,25 +2,237 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #ffffff; /* 白色 */
 }
 
-.flag {
+.flagJapan {
     width: 200px;
     height: 120px;
-    background-color: #d7003a; /* 赤色 */
+    background-color: #ffffff; /* 赤色 */
     position: relative;
+    margin-bottom: 100px;
+    border: 1px solid #000
 }
 
-.circle {
-    width: 80px;
-    height: 80px;
-    background-color: #ffffff; /* 白色 */
+.circleJapan {
+    width: 72px;
+    height: 72px;
+    background-color: #d7003a; /* 白色 */
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    left: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flagUAE {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flag1 {
+    width: 25%;
+    height: 100%;
+    background-color: #ff0000;
+}
+
+.flag2 {
+    width: 75%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.flag2-1 {
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: #00732f;
+}
+
+.flag2-2 {
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: #ffffff;
+}
+
+.flag2-3 {
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: #000000;
+}
+
+.flagKorea {
+    width: 216px;
+    height: 144px;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #000
+}
+
+.circleKorea1 {
+    width: 72px;
+    height: 36px;
+    background-color: #cd2e3a; /* 白色 */
+    border-radius: 36px 36px 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -100%) rotate(0.59rad);
+    transform-origin: center bottom;
+}
+
+.circleKorea2 {
+    width: 72px;
+    height: 36px;
+    background-color: #0047a0; /* 白色 */
+    border-radius: 0 0 36px 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, 0) rotate(0.59rad) ;
+    transform-origin: center top;
+}
+
+.circleKorea3 {
+    width: 36px;
+    height: 18px;
+    background-color: #cd2e3a;
+    border-radius: 0 0 36px 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-100%, 0) rotate(0.59rad);
+    transform-origin: right top;
+}
+
+.circleKorea4 {
+    width: 36px;
+    height: 18px;
+    background-color: #0047a0;
+    border-radius: 36px 36px 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(0, -100%) rotate(0.59rad);
+    transform-origin: left bottom;
+}
+
+.r1s {
+    display: flex;
+    gap: 0 3px;
+    width: 24px;
+    height: 36px;
+    top: 50%;
+    left: 30px;
+    position: absolute;
+    transform:  translate(0, -50%) rotate(0.59rad);
+    transform-origin: 78px 18px;
+    background-color: #ffffff;
+}
+
+.r1-1, .r1-2, .r1-3  {
+    width: 6px;
+    height: 36px;
+    background-color: #000000;
+}
+
+.r2s {
+    display: flex;
+    gap: 0 3px;
+    width: 24px;
+    height: 36px;
+    top: 50%;
+    left: 30px;
+    position: absolute;
+    transform:  translate(0, -50%) rotate(-0.59rad);
+    transform-origin: 78px 18px;
+    background-color: #ffffff;
+}
+
+.r2-1, .r2-3  {
+    width: 6px;
+    height: 36px;
+    background-color: #000000;
+}
+
+.r2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px 0;
+    width: 6px;
+    height: 36px;
+    background-color: #ffffff;
+}
+
+.r2-2-1, .r2-2-2 {
+    width: 6px;
+    height: 16.5px;
+    background-color: #000000;
+}
+
+.r3s {
+    display: flex;
+    gap: 0 3px;
+    width: 24px;
+    height: 36px;
+    top: 50%;
+    right: 30px;
+    position: absolute;
+    transform:  translate(0, -50%) rotate(-0.59rad);
+    transform-origin: -54px 18px;
+    background-color: #ffffff;
+}
+
+.r3-2 {
+    width: 6px;
+    height: 36px;
+    background-color: #000000;
+}
+
+.r3-1, .r3-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px 0;
+    width: 6px;
+    height: 36px;
+    background-color: #ffffff;
+}
+
+.r3-1-1, .r3-1-2, .r3-3-1, .r3-3-2 {
+    width: 6px;
+    height: 16.5px;
+    background-color: #000000;
+}
+
+.r4s {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 3px;
+    width: 24px;
+    height: 36px;
+    top: 50%;
+    right: 30px;
+    position: absolute;
+    transform:  translate(0, -50%) rotate(0.59rad);
+    transform-origin: -54px 18px;
+    background-color: #ffffff;
+}
+
+.r4-1, .r4-2, .r4-3, .r4-4, .r4-5, .r4-6 {
+    width: 6px;
+    height: 16.5px;
+    background-color: #000000;
 }
