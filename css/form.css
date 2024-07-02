@@ -1,1 +1,9 @@
+.form-blok {
+    margin-bottom: 25px;
+}
 
+.form-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}

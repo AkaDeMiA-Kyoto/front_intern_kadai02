@@ -1,1 +1,54 @@
+@charset "UTF-8";
 
+/* 日本 */
+.square_japan {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.circle_japan {
+    width: 180px;
+    height: 180px;
+    background: #d70003;
+    border-radius: 180px;
+    position: relative;
+    top: -240px;
+    left: 160px;
+}
+
+/* UAE */
+.background_uae {
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+}
+
+.red_uae {
+    width: 125px;
+    height: 250px;
+    background-color: #ff0000;
+    position: relative;
+    top: -250px;
+    left: 0px;
+}
+
+.green_uae {
+    width: 375px;
+    height: 83px;
+    background-color: #00732f;
+    position: relative;
+    left: 125px;
+    top: -500px;
+}
+
+.black_uae {
+    width: 375px;
+    height: 83px;
+    background-color: #000;
+    position: relative;
+    left: 125px;
+    top: -416px;
+}

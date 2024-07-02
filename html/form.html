@@ -1,1 +1,65 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <fieldset class="form-block">
+            <legend class="form-title">emailアドレスを教えてください</legend>
+            <div class="form-input"><input type="email" class="input-text"></div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？</legend>
+            <div class="form-input">
+                <input type="radio" name="radio" id="radiol" value="1">
+                <label for="radio1">カレー</label>
+                <input type="radio" name="radio" id="radio2" value="2">
+                <label for="radio2">お寿司</label>
+                <input type="radio" name="radio" id="radio3" value="3">
+                <label for="radio1">焼肉</label>
+                <input type="radio" name="radio" id="radio4" value="4">
+                <label for="radio2">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？</legend>
+            <div class="form-input">
+                <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+                <label for="checkbox1">カレー</label>
+                <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                <label for="radio2">お寿司</label>
+                <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                <label for="radio2">焼肉</label>
+                <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                <label for="radio2">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">日付けを教えてください</legend>
+            <div class="form-input"><input type="date" class="input-text"></div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">満足度を教えてください</legend>
+            <div>
+                <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="50" step="5" />
+                <label for="satisfaction">満足度</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">パスワード</legend>
+            <div>
+                <input type="password" id="pass" name="password" />
+            </div>
+        </fieldset>
+    </section>
+
+
+</body>
+
+</html>
