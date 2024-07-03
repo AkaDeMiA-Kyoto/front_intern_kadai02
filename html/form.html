@@ -1,1 +1,45 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+</head>
+<body>
+  
+  <legend>メールアドレス</legend>
+  <input type="email" pattern=".+@example\.com">
+  
+  <legend>好きなものは？</legend>
+  <input type="radio" id="curry_R" name="radio" value="curry_R">
+  <label for="curry_R">カレー</label>
+  <input type="radio" id="sushi_R" name="radio" value="sushi_R">
+  <label for="sushi_R">お寿司</label>
+  <input type="radio" id="meet_R" name="radio" value="meet_R">
+  <label for="meet_R">焼肉</label>
+  <input type="radio" id="else_R" name="radio" value="else_R">
+  <label for="else_R">その他</label>
+
+  <legend>好きなものは？</legend>
+  <input type="checkbox" id="curry_C" name="checkbox" value="curry_C">
+  <label for="curry_C">カレー</label>
+  <input type="checkbox" id="sushi_C" name="checkbox" value="sushi_C">
+  <label for="sushi_C">お寿司</label>
+  <input type="checkbox" id="meet_C" name="checkbox" value="meet_C">
+  <label for="meet_C">焼肉</label>
+  <input type="checkbox" id="else_C" name="checkbox" value="else_C">
+  <label for="else_C">その他</label>
+
+  <legend>あなたの誕生日は？</legend>
+  <input type="date" id="birthday" name="birthday" value="2004-06-17" min="1924-01-01" max="2024-6-17">
+
+  <legend></legend>
+  <input type="range" id="sound" name="sound" min="0" max="100" value="50" step="5">
+  <label for="sound">sound</label>
+
+  <legend>パスワード:</legend>
+  <input type="password" id="pass" name="pass" minlength="6" required>
+  
+  <legend></legend>
+  <input type="submit" value="提出">
+</body>
