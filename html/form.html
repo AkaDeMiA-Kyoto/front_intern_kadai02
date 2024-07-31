@@ -1,1 +1,76 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    いろいろなフォームを作ってみよう
+    <form action="#">
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <label>
+                Email:
+                <input type="email" name="user_email">
+            </label>
+        </fieldset>
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <legend>好きなものは？</legend>
+            <label>
+                カレー
+                <input type="radio" name="favorite" value="1">
+            </label>
+            <label>
+                焼肉
+                <input type="radio" name="favorite" value="2">
+            </label>
+            <label>
+                お寿司
+                <input type="radio" name="favorite" value="3">
+            </label>
+            <label>
+                その他
+                <input type="radio" name="favorite" value="4">
+            </label>
+        </fieldset>
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <legend>好きなものは？</legend>
+            <label>
+                カレー
+                <input type="checkbox" name="favorite" value="1">
+            </label>
+            <label>
+                焼肉
+                <input type="checkbox" name="favorite" value="2">
+            </label>
+            <label>
+                お寿司
+                <input type="checkbox" name="favorite" value="3">
+            </label>
+            <label>
+                その他
+                <input type="checkbox" name="favorite" value="4">
+            </label>
+        </fieldset>
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <label>
+                Choose a date and time:
+                <input type="datetime-local" name="calender">
+            </label>
+        </fieldset>
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <label>
+                音量調整:
+                <input type="range" name="range">
+            </label>
+        </fieldset>
+        <fieldset style="border: none; padding: 0; margin: 10px 0;">
+            <label>
+                password:
+                <input type="password" name="pwd">
+            </label>
+        </fieldset>
+        <button>submit</button>
+    </form>    
+</body>
+</html>
