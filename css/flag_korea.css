@@ -68,37 +68,50 @@
     transform: translate(-14.5%,-14.5%);
 }
 
-
-
-
-/* Trigrams */
-.trigram {
-    position: absolute;
-    width: 24px;
-    height: 24px;
+.big-rectangle {
+    width: 120px;
+    height: calc(480px*2/48); 
     background-color: #000;
 }
 
-.trigram-1 {
-    top: 10%;
-    left: 10%;
-    transform: rotate(45deg);
+.small-rectangle {
+    width: calc(480px*11/96); 
+    height: calc(480px*2/48);
+    background-color: #000;
 }
 
-.trigram-2 {
-    top: 10%;
-    right: 10%;
-    transform: rotate(135deg);
+.box {
+    width: 120px; 
+    height: calc(480px*8/48);
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-content: space-between; 
+    position: absolute;
+    left: 50%;
+    transform-origin: 50% calc(480px*26/48); 
 }
 
-.trigram-3 {
-    bottom: 10%;
-    left: 10%;
-    transform: rotate(-45deg);
+.upper-left {
+    transform:
+        translate(-50%, calc(-480px/24)) 
+        rotate(-0.98rad); 
 }
 
-.trigram-4 {
-    bottom: 10%;
-    right: 10%;
-    transform: rotate(-135deg);
+.upper-right {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(0.98rad);
+}
+
+.lower-right {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(calc(90deg + 0.59rad));
+}
+
+.lower-left {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(calc(-90deg - 0.59rad));
 }
