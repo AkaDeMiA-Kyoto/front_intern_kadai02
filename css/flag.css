@@ -1,64 +1,171 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #ffffff; /* 白色 */
+.content {
+    padding-top: 5px;
+    text-align: center;
 }
 
-.flag {
-    width: 200px;
-    height: 120px;
-    background-color: #ffffff; /* 赤色 */
-    position: relative;
-    border: 1px solid #000;
-    margin: 20px;
+.ul {
+    border-bottom: 1px solid #000;
+    display: inline-block;
 }
+
+.border {
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.suncircle {
+    border-radius: 50%;
+    border: 1px solid #d7003a;
+    width: 36%;
+    height: 60%;
+    background-color: #d7003a;
+    margin: 60px auto;
+}
+
+.border-UAE {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    display: flex;
+}
+
+.r-area {
+border: 1px solid #ff0000;
+height: 100%;
+width: 25%;
+background-color: #ff0000;
+}
+
+.three-colors {
+    height: 100%;
+    width: 75%;
+}
+
+.g-area {
+border: 1px solid #00732f;
+width: 100%;
+height: 100px;
+background-color:#00732f;
+
+}
+
+.b-area {
+border: 1px solid #000;
+width: 100%;
+height: 100px;
+background-color:#000;
+position: relative;
+top: 100px;
+left: 0;
+}
+
+/* Korea */
+
+.border-korea {
+    border: 1px solid #000;
+    width: 720px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block {
+    border: 1px solid #000;
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.space-0 {
+    /* position: absolute; */
+    top: -140px;
+    left: 50px;
+    transform: translate(0, -380px);
+
+}
+
+.space-3{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 10px auto;
+    position: relative;
+    top: -30px;
+}
+
+
+
+.block-3 {
+    border: 1px solid #000;
+    width: 55px;
+    height: 20px;
+    background-color: #000;
+}
+
+.block-right {
+    transform-origin: 50% -300px;
+    transform: rotate(calc(0.98rad + 0.98rad));
+}
+
+.space-2 {
+display: flex;
+justify-content: space-between;
+width: 120px;
+margin: 10px auto;
+position: relative;
+top: -125px;
+}
+
+.space-1 {
+display: flex;
+justify-content: space-between;
+width: 120px;
+margin: 10px auto;
+position: relative;
+top: -660px;
+}
+
+
+
+.block + .block {
+    margin-top: 10px;
+}
+
 
 .circle {
-    width: 80px;
-    height: 80px;
-    background-color: #d7003a; /* 白色 */
     border-radius: 50%;
+    border: 1px solid #000;
+    width: 240px;
+    height: 240px;
+    position: relative;
     position: absolute;
-    top: 20px;
-    left: 60px;
+    top: 120px;
+    left: 240px;
+    transform-origin: 50% 50%;
+    transform: rotate(-0.98rad);
+    background: linear-gradient(to right, #0047a0 0%, #0047a0 50%, #cd2e3a 50%, #cd2e3a 100%);
 }
 
-.flag-uae{
-margin: 20px;
-display: flex;
+.round {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
 }
 
-.uae-box-left{
-width: 100px;
-height: 200px;
-background-color: red;
-border: 1px solid #000;
-border-right: 0px solid #000;
+.r {
+    border: 1px solid #cd2e3a;
+    background-color: #cd2e3a;
 }
 
-.uae-box-right{
-width: 300px;
-height: 200px;
-display: flex;
-flex-direction: column;
-border: 1px solid #000;
+.b {
+    border: 1px solid #0047a0;
+    background-color: #0047a0;
 }
-
-.uae-box-right1, .uae-box-right2, .uae-box-right3{
-height: 33.3333%;
-background-color: blue;
-}
-
-.uae-box-right1{
-background-color: #00732f ;
-}
-
-.uae-box-right2{
-background-color: #000;
-}
-
-.uae-box-right3{
-background-color: #fff;
-}
-
