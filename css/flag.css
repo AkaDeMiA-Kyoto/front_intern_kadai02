@@ -1,1 +1,217 @@
+.japan-flame {
+  height: 300px;
+  width: 500px;
+  border: solid 1px #000000;
+  position: relative;
+  margin-bottom: 10px;
+}
+.japan-circle {
+  width: 180px;
+  height: 180px;
+  background-color: #d7003a;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.uae-flame {
+  height: 252px;
+  width: 504px;
+  border: solid 1px #000000;
+  position: relative;
+  margin-bottom: 10px;
+}
+.uae-ver {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 252px;
+  width: 126px;
+  background-color: #ff0000;
+}
+.uae-hor div:first-child {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  background-color: #00732f;
+  width: 378px;
+  height: 84px;
+}
+.uae-hor div:nth-child(2) {
+  position: absolute;
+  top: 33.3%;
+  left: 25%;
+  background-color: #ffffff;
+  width: 378px;
+  height: 84px;
+}
+.uae-hor div:nth-child(3) {
+  position: absolute;
+  top: 66.6%;
+  left: 25%;
+  background-color: #000000;
+  width: 378px;
+  height: 84px;
+}
+.korea-flame {
+  height: 336px;
+  width: 504px;
+  border: solid 1px #000000;
+  position: relative;
+}
+/*半円２つの回転を記述*/
+.korea-half-big-circle {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0.59rad);
+}
+.korea-mini-circle {
+  position: absolute;
+  width: 168px;
+  height: 84px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0.59rad);
+  z-index: 2;
+}
+.korea-half-big-circle div:first-child {
+  width: 168px;
+  height: 84px;
+  background-color: #cd2e3a;
+  border-top-left-radius: 84px;
+  border-top-right-radius: 84px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.korea-half-big-circle div:nth-child(2) {
+  width: 168px;
+  height: 84px;
+  background-color: #0047a0;
+  border-bottom-left-radius: 84px;
+  border-bottom-right-radius: 84px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.korea-mini-circle div:first-child {
+  width: 84px;
+  height: 84px;
+  background-color: #cd2e3a;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.korea-mini-circle div:nth-child(2) {
+  width: 84px;
+  height: 84px;
+  background-color: #0047a0;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.korea-chara-wrap-1 {
+  height: 84px;
+  width: 364px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(-50%, -50%) rotate(0.59rad);
+}
+.korea-chara-wrap-2 {
+  height: 84px;
+  width: 364px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(-50%, -50%) rotate(-0.59rad);
+}
+.korea-chara-1,
+.korea-chara-2,
+.korea-chara-3,
+.korea-chara-4 {
+  height: 84px;
+  width: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.korea-chara-1 div {
+  height: 84px;
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.korea-chara-1 div div {
+  height: calc(6 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+.korea-chara-2 div {
+  height: 84px;
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.korea-chara-2 div div {
+  height: calc(5.5 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+
+.korea-chara-3 div {
+  height: 84px;
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.korea-chara-3 div div {
+  height: calc(6 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+.korea-chara-3 div:nth-child(2) div {
+  height: calc(5.5 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+.korea-chara-4 div {
+  height: 84px;
+  width: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.korea-chara-4 div div {
+  height: calc(5.5 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+.korea-chara-4 div div:nth-child(2) {
+  height: calc(5.5 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}
+.korea-chara-4 div:nth-child(2) div {
+  height: calc(6 / 12 * 84px);
+  width: 14px;
+  background-color: #000000;
+}

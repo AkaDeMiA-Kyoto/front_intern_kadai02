@@ -1,1 +1,137 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>フォーム</title>
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <p>いろいろなフォームを作ってみよう</p>
+    <form action="#" class="form">
+      <fieldset class="form-block">
+        <legend class="form-title">email</legend>
+        <div class="form-input">
+          <label for="email">メールアドレスを入力:</label>
+
+          <input
+            type="email"
+            id="email"
+            pattern=".+@example\.com"
+            size="30"
+            required
+          />
+        </div>
+      </fieldset>
+      <fieldset class="form-block">
+        <legend class="form-title">ラジオボタン</legend>
+        <div class="form-input">
+          <div>
+            <input type="radio" id="curry" name="radio" value="curry" checked />
+            <label for="curry">カレー</label>
+          </div>
+
+          <div>
+            <input type="radio" id="sushi" name="radio" value="sushi" />
+            <label for="sushi">お寿司</label>
+          </div>
+
+          <div>
+            <input type="radio" id="yakiniku" name="radio" value="yakiniku" />
+            <label for="yakiniku">焼き肉</label>
+          </div>
+          <div>
+            <input type="radio" id="another" name="radio" value="another" />
+            <label for="another">その他</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-block">
+        <legend class="form-title">チェックボックス</legend>
+        <div class="form-input">
+          <div>
+            <input
+              type="checkbox"
+              id="curry"
+              name="checkbox"
+              value="curry"
+              checked
+            />
+            <label for="curry">カレー</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="sushi" name="checkbox" value="sushi" />
+            <label for="sushi">お寿司</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="yakiniku"
+              name="checkbox"
+              value="yakiniku"
+            />
+            <label for="yakiniku">焼き肉</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="another"
+              name="checkbox"
+              value="another"
+            />
+            <label for="another">その他</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-block">
+        <legend class="form-title">カレンダー</legend>
+        <div class="form-input">
+          <label for="date">日付を選択</label>
+
+          <input
+            type="date"
+            id="date"
+            name="calender"
+            value="date"
+            min="2018-01-01"
+            max="2024-12-31"
+          />
+        </div>
+      </fieldset>
+      <fieldset class="form-block">
+        <legend class="form-title">range</legend>
+        <div class="form-input">
+          <p>音量設定</p>
+
+          <div>
+            <input type="range" id="volume" name="volume" min="0" max="11" />
+            <label for="volume">音量</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="form-block">
+        <legend class="form-title">パスワード</legend>
+        <div class="form-input">
+          <div>
+            <label for="username">ユーザー名</label>
+            <input type="text" id="username" name="username" />
+          </div>
+
+          <div>
+            <label for="pass">パスワード（８文字以上）:</label>
+            <input
+              type="password"
+              id="pass"
+              name="password"
+              minlength="8"
+              required
+            />
+          </div>
+        </div>
+      </fieldset>
+      <input type="submit" value="提出" />
+    </form>
+  </body>
+</html>
