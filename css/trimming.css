@@ -1,1 +1,13 @@
-
+.circle-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.circle-img img {
+  position: absolute;
+  transform: translate(-50%, -15%);
+  height: 200%; /*辺の長さが短いheghtを基準にする*/
+  width: auto;
+}
