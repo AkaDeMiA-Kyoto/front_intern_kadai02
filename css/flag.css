@@ -1,1 +1,16 @@
+@charset "UTF-8";
+.flag_japan_rectangle{
+    position: relative;
+    background-color: #ffffff;
+    width: 500;
+    height: 300;
+}
 
+.flag_japan_circle{
+    position: absolute;
+    margin: 0 auto;
+    background-color: #d7003a;
+    width: 140;
+    height: 140;
+    border-radius: 50%;
+}
