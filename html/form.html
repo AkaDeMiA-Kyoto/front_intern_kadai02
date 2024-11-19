@@ -1,1 +1,51 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>課題２ーフォント</title>
+<link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset class="form-block">
+            <label for="email">Enter your Email</label>
+            <input type="text" name="email">
+        </fieldset>
+        <fieldset class="form-block">
+            <legend>好きな食べ物は？</legend>
+            <input type="radio" id="curry" name="preference" value="1">
+            <label for="curry">カレー</label>
+            <input type="radio" id="sushi" name="preference" value="2">
+            <label for="sushi">お寿司</label>
+            <input type="radio" id="barbeque" name="preference" value="3">
+            <label for="barbeque">焼肉</label>
+            <input type="radio" id="other" name="preference" value="4">
+            <label for="other">その他</label>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend>好きな食べ物は？</legend>
+            <input type="checkbox" id="curry" name="preference" value="1">
+            <label for="curry">カレー</label>
+            <input type="checkbox" id="sushi" name="preference" value="2">
+            <label for="sushi">お寿司</label>
+            <input type="checkbox" id="barbeque" name="preference" value="3">
+            <label for="barbeque">焼肉</label>
+            <input type="checkbox" id="other" name="preference" value="4">
+            <label for="other">その他</label>
+        </fieldset>
+        <fieldset class="form-block">
+            <label for="calendar">日付を入力してください</label>
+            <input type="date" id="calendar" name="calendar">
+        </fieldset>
+        <fieldset class="form-block">
+            <input type="range" id="range" name="range" min="0" max="10">
+            <label for="range"></label>
+        </fieldset>
+        <fieldset class="form-block">
+            <label for="password">パスワードを入力してください</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
