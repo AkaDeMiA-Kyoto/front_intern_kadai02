@@ -1,1 +1,60 @@
 いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いろいろなフォームを作ってみよう</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <label for="email">メールアドレス<br></label>
+            <input type="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>好きなものは？</legend>
+            <div>
+                <input type="radio" id="radio1" name="food" value="curry" checked>
+                <label for="radio1">カレー</label>
+                <input type="radio" id="radio2" name="food" value="sushi" checked>
+                <label for="radio2">お寿司</label>
+                <input type="radio" id="radio3" name="food" value="yakiniku" checked>
+                <label for="radio3">焼肉</label>
+                <input type="radio" id="radio4" name="food" value="other" checked>
+                <label for="radio4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>好きなものは？</legend>
+            <div>
+                <input type="checkbox" id="check1" name="food" value="curry" checked>
+                <label for="check1">カレー</label>
+                <input type="checkbox" id="check2" name="food" value="sushi" checked>
+                <label for="check2">お寿司</label>
+                <input type="checkbox" id="check3" name="food" value="yakiniku" checked>
+                <label for="check3">焼肉</label>
+                <input type="checkbox" id="check4" name="food" value="other" checked>
+                <label for="check4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>カレンダー</legend>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="range" id="range1" name="range" min="0" max="100">
+                <label for="range1">range</label>
+              </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="password">Password<br></label>
+                <input type="password" id="password" name="password" required>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
