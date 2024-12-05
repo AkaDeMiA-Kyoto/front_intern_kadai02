@@ -1,1 +1,50 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form accept="#">
+        <fieldset>
+            <legend>email</legend>
+            <input type="email">
+        </fieldset>
+        <fieldset>
+            <legend>好きなものは？</legend>
+            <input type="radio" name="radio" id="radio1" value="1">
+            <label for="radio1">カレー</label>
+            <input type="radio" name="radio" id="radio2" value="2">
+            <label for="radio2">お寿司</label>
+            <input type="radio" name="radio" id="radio3" value="3">
+            <label for="radio3">焼肉</label>
+            <input type="radio" name="radio" id="radio4" value="4">
+            <label for="radio4">その他</label>
+        </fieldset>
+        <fieldset>
+            <legend>好きなものは？</legend>
+            <input type="checkbox" name="check" id="check1" value="1">
+            <label for="check1">カレー</label>
+            <input type="checkbox" name="check" id="check2" value="2">
+            <label for="check2">お寿司</label>
+            <input type="checkbox" name="check" id="check3" value="3">
+            <label for="check3">焼肉</label>
+            <input type="checkbox" name="check" id="check4" value="4">
+            <label for="radio4">その他</label>
+        </fieldset>
+        <fieldset>
+            <legend>カレンダー</legend>
+            <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>range</legend>
+            <input type="range">
+        </fieldset>
+        <fieldset>
+            <legend>パスワード</legend>
+            <input type="password">
+        </fieldset>
+    </form>
+</body>
+</html>

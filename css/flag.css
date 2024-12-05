@@ -1,1 +1,287 @@
+@charset "UTF-8";
+.wrap{
+    margin-bottom: 30px;
+}
 
+.ja-square{
+    display: block;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #000;
+    position: relative;
+    background: #ffffff;
+}
+.ja-circle{
+    display: block;
+    height: 60%;
+    width: 36%;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    background: #d7003a;
+    border-radius: 50%;
+}
+
+.uae-square{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+}
+
+.uae-red{
+    width: 25%;
+    height: 100%;
+    background: #ff0000;
+}
+.uae-green{
+    width: 75%;
+    height: 33.3%;
+    background: #00732f;
+}
+.uae-white{
+    width: 75%;
+    height: 33.3%;
+    background: #ffffff;
+}
+.uae-black{
+    width: 75%;
+    height: 33.3%;
+    background: #000000;
+}
+
+.ko-square{
+    width: 1000px;
+    height: calc(2000px/3);
+    border: 1px solid #000000;
+    position: relative;
+    background: #ffffff;
+}
+.ko-circle-small-red{
+    width: calc(1000px/6);
+    height: calc(1000px/6);
+    background: #cd2e3a;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 1000px/12);
+    left: calc(50% - 1000px/6);
+    z-index: 2;
+    transform-origin: 100% 50%;
+}
+.ko-circle-small-blue{
+    width: calc(1000px/6);
+    height: calc(1000px/6);
+    background: #0047a0;
+    position: absolute;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 1000px/12);
+    left: calc(50%);
+    z-index: 2;
+    transform-origin: 0% 50%;
+}
+.ko-circle-big-red{
+    width: calc(1000px/3);
+    height: calc(1000px/6);
+    background: #cd2e3a;
+    position: absolute;
+    border-radius:calc(1000px/6) calc(1000px/6) 0 0;
+    top: calc(50% - 1000px/6);
+    left: calc(50% - 1000px/6);
+    z-index: 1;
+    transform-origin: 50% 100%;
+}
+.ko-circle-big-blue{
+    width: calc(1000px/3);
+    height: calc(1000px/6);
+    background: #0047a0;
+    position: absolute;
+    border-radius: 0 0 calc(1000px/6) calc(1000px/6);
+    top: calc(50%);
+    left: calc(50% - 1000px/6);
+    z-index: 1;
+    transform-origin: 50% 0%;
+}
+.ko-circles{
+    transform: rotate(0.59rad);
+}
+.ko-top_left_object .o1{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 20 /72);
+    transform-origin: calc(1000px * 20 /72) 50%;
+}
+.ko-top_left_object .o2{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 23 /72);
+    transform-origin: calc(1000px * 23 /72) 50%;
+}
+.ko-top_left_object .o3{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 26 /72);
+    transform-origin: calc(1000px * 26 /72) 50%;
+}
+.ko-top_left_object div{
+    transform: rotate(0.59rad);
+}
+
+.ko-top_right_object .o1{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 18 /72);
+    transform-origin: calc(-1000px * 18 /72) calc(1000px * 6 / 72);
+}
+.ko-top_right_object .o2{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% + 1000px * 18 /72);
+    transform-origin: calc(-1000px * 18 /72) calc(-1000px * 1 / 144);
+}
+.ko-top_right_object .o3{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 21 /72);
+    transform-origin: calc(-1000px * 21 /72) 50%;
+}
+.ko-top_right_object .o4{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 24 /72);
+    transform-origin: calc(-1000px * 24 /72) calc(1000px * 6 / 72);
+}
+.ko-top_right_object .o5{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% + 1000px * 24 /72);
+    transform-origin: calc(-1000px * 24 /72) calc(-1000px * 1 / 144);
+}
+.ko-top_right_object div{
+    transform: rotate(-0.59rad);
+}
+
+.ko-bottom_left_object .o1{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 20 /72);
+    transform-origin: calc(1000px * 20 /72) 50%;
+}
+.ko-bottom_left_object .o2{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 23 /72);
+    transform-origin: calc(1000px * 23 /72) calc(1000px * 6 / 72);
+}
+.ko-bottom_left_object .o3{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% - 1000px * 23 /72);
+    transform-origin: calc(1000px * 23 /72) calc(-1000px * 1 / 144);
+}
+.ko-bottom_left_object .o4{
+    width: calc(1000px/36);
+    height: calc(1000px * 12 / 72);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% - 1000px * 26 /72);
+    transform-origin: calc(1000px * 26 /72) 50%;
+}
+.ko-bottom_left_object div{
+    transform: rotate(-0.59rad);
+}
+
+.ko-bottom_right_object .o1{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 18 /72);
+    transform-origin: calc(-1000px * 18 /72) calc(1000px * 6 / 72);
+}
+.ko-bottom_right_object .o2{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% + 1000px * 18 /72);
+    transform-origin: calc(-1000px * 18 /72) calc(-1000px * 1 / 144);
+}
+.ko-bottom_right_object .o3{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 21 /72);
+    transform-origin: calc(-1000px * 21 /72) calc(1000px * 6 / 72);
+}
+.ko-bottom_right_object .o4{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% + 1000px * 21 /72);
+    transform-origin: calc(-1000px * 21 /72) calc(-1000px * 1 / 144);
+}
+.ko-bottom_right_object .o5{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% - 1000px * 6 / 72);
+    left: calc(50% + 1000px * 24 /72);
+    transform-origin: calc(-1000px * 24 /72) calc(1000px * 6 / 72);
+}
+.ko-bottom_right_object .o6{
+    width: calc(1000px/36);
+    height: calc(1000px * 11 / 144);
+    background: #000000;
+    position: absolute;
+    top: calc(50% + 1000px * 1 / 144);
+    left: calc(50% + 1000px * 24 /72);
+    transform-origin: calc(-1000px * 24 /72) calc(-1000px * 1 / 144);
+}
+.ko-bottom_right_object div{
+    transform: rotate(0.59rad);
+}

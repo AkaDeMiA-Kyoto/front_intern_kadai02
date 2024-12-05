@@ -1,1 +1,7 @@
-
+.cover1 img{
+    width: 400px;
+    height: 400px;
+    clip-path: circle(30%);
+    object-fit: cover;
+    object-position: -170px 10px;
+}
