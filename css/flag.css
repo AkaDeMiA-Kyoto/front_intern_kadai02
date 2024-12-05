@@ -1,1 +1,272 @@
-
+@charset "UTF-8" ;
+.japanred {
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  background-color:#d7003a;
+  margin: 60px auto;
+}
+.japan {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    color:#ffffff;
+    margin: 50px auto;
+  }
+  .UAEred {
+    width:90px;
+    height:180px;
+    background-color:#ff0000;
+    margin: 50px;
+  }
+  .UAEgreen {
+    width:270px;
+    height:60px;
+    background-color:#00732f;
+    margin-left: 90px;
+  }
+  .UAEwhite {
+    width:270px;
+    height:60px;
+    background-color:#ffffff;
+    margin-left: 90px;
+  }
+  .UAEblack {
+    width:270px;
+    height:60px;
+    background-color:#000000;
+    margin-left: 90px;
+  }
+  .corea {
+    width: 720px;
+    height: 480px;
+    border: 1px solid black;
+    color:#ffffff;
+    margin: 50px auto;
+  }
+  .coreablackup1 {
+    position:absolute;
+    width: 120px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:-20px;
+  transform: rotate(-0.98rad);
+    transform-origin: 50% 1300%;
+  }
+  .coreablackup2 {
+    position:absolute;
+    width: 120px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:10px;
+    transform: rotate(-0.98rad);
+    transform-origin: 50% 1150%;
+  }
+  .coreablackup3 {
+    position:absolute;
+    width: 120px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:40px;
+    transform: rotate(-0.98rad);
+    transform-origin: 50% 1000%;
+  }
+  .coreablackdown1 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:420px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(1200%/11) -900%;
+  }
+  .coreablackdown2 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 365px;
+    margin-top:420px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(-100%/11) -900%;
+  }
+  .coreablackdown3 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:450px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(1200%/11) -1050%;
+  }
+  .coreablackdown4 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 365px;
+    margin-top:450px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(-100%/11) -1050%;
+  }
+  .coreablackdown5 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 300px;
+    margin-top:480px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(1200%/11) -1200%;
+  }
+  .coreablackdown6 {
+    position:absolute;
+    width: 55px;
+    height: 20px;
+    background-color:#000000;
+    margin-left: 365px;
+    margin-top:480px;
+    transform: rotate(-0.98rad);
+    transform-origin: calc(-100%/11) -1200%;
+  }
+  .coreablackleft1 {
+    position:absolute;
+    width: 20px;
+    height: 120px;
+    background-color:#000000;
+    margin-left: 160px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: 1000% 50%;
+  }
+  .coreablackleft2 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 130px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: 1150% calc(1200%/11);
+  }
+  .coreablackleft3 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 130px;
+    margin-top:245px;
+    transform: rotate(-0.59rad);
+    transform-origin: 1150% calc(-100%/11);
+  }
+  .coreablackleft4 {
+    position:absolute;
+    width: 20px;
+    height: 120px;
+    background-color:#000000;
+    margin-left: 100px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: 1300% 50%;
+  }
+  .coreablackright1 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 540px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: -900% calc(1200%/11);
+  }
+  .coreablackright2 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 540px;
+    margin-top:245px;
+    transform: rotate(-0.59rad);
+    transform-origin: -900% calc(-100%/11);
+  }
+  .coreablackright3 {
+    position:absolute;
+    width: 20px;
+    height: 120px;
+    background-color:#000000;
+    margin-left: 570px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: -1050% 50%;
+  }
+  .coreablackright4 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 600px;
+    margin-top:180px;
+    transform: rotate(-0.59rad);
+    transform-origin: -1200% calc(1200%/11);
+  }
+  .coreablackright5 {
+    position:absolute;
+    width: 20px;
+    height: 55px;
+    background-color:#000000;
+    margin-left: 600px;
+    margin-top:245px;
+    transform: rotate(-0.59rad);
+    transform-origin: -1200% calc(-100%/11);
+  }
+  .coreared1 {
+    position:absolute;
+    display: inline-block;
+    width: 240px;
+    height: 120px;
+    border-radius: 50% / 100% 100% 0 0;
+    margin-left: 240px;
+    margin-top:120px;
+    background: #cd2e3a;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 100%;
+  }
+  .coreared2 {
+    position:absolute;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color:#cd2e3a;
+    margin-left: 240px;
+    margin-top:180px;
+    transform: rotate(0.59rad);
+    transform-origin: 100% 50%;
+  }
+  .coreablue1 {
+    position:absolute;
+    display: inline-block;
+    width: 240px;
+    height: 120px;
+    border-radius: 50% / 0 0 100% 100%;
+    margin-left: 240px;
+    margin-top:240px;
+    background: #0047a0;
+    transform: rotate(0.59rad);
+    transform-origin: 50% 0%;
+  }
+  .coreablue2 {
+    position:absolute;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color:#0047a0;
+    margin-left: 360px;
+    margin-top:180px;
+    transform: rotate(0.59rad);
+    transform-origin: 0% 50%;
+  }

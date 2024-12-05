@@ -1,1 +1,53 @@
 いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <section>
+        <fildset class="form-block">
+            <legend class="form-title">email</legend>
+            <div class="form-input"><input type="text" class="input-text"></div>
+        </fildset>
+    </section>
+        <fildset class="form-block">
+            <legend class="form-title">好きな食べ物は？</legend>
+            <div class="form-input">
+                <input type="radio" name="radio" id="radio1" value="1" checked>
+                <lavel for="radio1">カレー</lavel>
+                <input type="radio" name="radio" id="radio2" value="2" >
+                <lavel for="radio2">お寿司</lavel>
+                <input type="radio" name="radio" id="radio3" value="3">
+                <lavel for="radio3">焼肉</lavel>
+                <input type="radio" name="radio" id="radio4" value="4">
+                <lavel for="radio4">その他</lavel>
+            </div>
+        </fildset>
+        <fildset class="form-block">
+            <legend class="form-title">好きな食べ物は？</legend>
+            <div class="form-input"><input type="checkbox" name="checkbox" id="checkbox" value="1">
+                <lavel for="checkbox1">カレー</lavel>
+                <div class="form-input"><input type="checkbox" name="checkbox" id="checkbox" value="2">
+                <lavel for="checkbox2">お寿司</lavel>
+                <div class="form-input"><input type="checkbox" name="checkbox" id="checkbox" value="3">
+                <lavel for="checkbox3">焼肉</lavel>
+                <div class="form-input"><input type="checkbox" name="checkbox" id="checkbox" value="4">
+                <lavel for="checkbox4">その他</lavel>
+            </div>
+        </fildset>
+        <fildset class="form-block">
+            <legend class="form-title">range</legend>
+            <div class="form-input"><input type="range" value=4 min="0" max="10"></div>
+        </fildset>
+        <fildset class="form-block">
+            <legend class="form-title">カレンダー</legend>
+            <div class="form-input"><input type="date" value="2024.11.16" min="2024.11.15" max="2025.5.31"></div>
+        </fildset>
+        <fildset class="form-block">
+            <legend class="form-title">パスワード</legend>
+            <div class="form-input"><input type="password" class="input-text"></div>
+        </fildset>
+</body>
+</html>
