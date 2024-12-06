@@ -28,7 +28,7 @@
     font-style: italic;
   }
 
-.search::before{
+.search_01::before{
   font-family: "Font Awesome 5 Free";
   content: "\f002";
   font-weight: 900;
