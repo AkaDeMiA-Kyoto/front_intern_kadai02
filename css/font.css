@@ -4,26 +4,32 @@
     font-style: normal;
   }
 
-  .roboto-medium {
+.roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
 
-  .roboto-bold {
+.roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 
-  .ubuntu-medium {
+.ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
 
-  .ubuntu-medium-italic {
+.ubuntu-medium-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: italic;
   }
+
+.search::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f002";
+  font-weight: 900;
+}
