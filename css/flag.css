@@ -2,18 +2,26 @@
 .flag-base_3-5 {
     width: 500px;
     height: 300px;
+    border:1px solid #000
 }
 
 .japan-pos {
-    display: flex;
+    position: relative;
 }
 
 div.japan-circle {
     width: 180px;
     height: 180px; 
+    border-radius:50%;
     background-color: #d7003a;
 }
 
+.middle {
+    position absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .middle {
     margin: auto;
