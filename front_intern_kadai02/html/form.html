@@ -1,0 +1,66 @@
+いろいろなフォームを作ってみよう
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+<h1>入力ふぉーーーむ！！！</h1>
+</head>
+<body>
+<form class="form">
+    <fieldset class="form-block">
+      <legend class="form-title">email</legend>
+      <div class="form-input"><input type="text" class="input-text"> 
+      </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">好きなものは？（ラジオボタン）</legend>
+        <div class="form-input">
+          <input type="radio" name="radio" id="radio1" value="1" checked>
+            <label for="radio1">カレー</label>
+          <input type="radio" name="radio" id="radio2" value="2" checked>
+            <label for="radio2">お寿司</label> 
+          <input type="radio" name="radio" id="radio3" value="3" checked>
+            <label for="radio2">焼肉</label>
+          <input type="radio" name="radio" id="radio4" value="4" checked>
+            <label for="radio2">その他</label>
+        </div>
+    </fieldset>
+    <fieldset class="form-block">
+        <legend class="form-title">好きなものは？（チェックボックス）</legend>
+        <div class="form-input">
+          <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+            <label for="checkbox1">カレー</label>
+          <input type="checkbox" name="checkbox" id="checkbox2" value="2" checked>
+            <label for="checkbox2">お寿司</label> 
+          <input type="checkbox" name="checkbox" id="checkbox3" value="3" checked>
+            <label for="checkbox1">焼肉</label>
+          <input type="checkbox" name="checkbox" id="checkbox4" value="4" checked>
+            <label for="checkbox2">その他</label>  
+        </div>
+    </fieldset>
+    <fieldset>
+      <legend class="form-title">日付を入力</legend>
+      <div class="form-input">
+        <input type="date">
+      </div>
+    </fieldset>
+    <fieldset>
+        <legend class="form-title">全体を100としてどれだけかつ丼が好き？</legend>
+        <div class="form-input">
+          <input type="range" max="100" min="1">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend class="form-title">password（16文字以内）</legend>
+        <div class="form-input">
+          <input type="password" maxlength="16">
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
