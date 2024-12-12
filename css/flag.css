@@ -40,5 +40,5 @@ div.UAE-horizontal {
     width: 300px;
     height: 200px;
     background: 
-        linear-gradient(to bottom, #00732f 0%,#00732f 33%,#ffffff 33%,#ffffff 66%,#000000 66%,#000000);
+        linear-gradient(to bottom, #00732f 0%,#00732f calc(100%/3),#ffffff calc(100%/3),#ffffff calc(200%/3),#000000 calc(200%/3),#000000);
 } 
