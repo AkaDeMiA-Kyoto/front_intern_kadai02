@@ -5,6 +5,12 @@
     border: 1px solid #000
 }
 
+.flag-base_1-2 {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000
+}
+
 .japan-pos {
     display: flex;
 }
@@ -12,10 +18,27 @@
 div.japan-circle {
     width: 90px;
     height: 90px; 
-    border-radius: 50%;
     background-color: #d7003a;
+    border-radius: 50%;
 }
 
 .middle {
     margin: auto;
 }
+
+.UAE-pos {
+    display: flex;
+}
+
+div.UAE-vertical {
+    width: 100px;
+    height: 200px;
+    background:#ff0000 0%;
+} 
+
+div.UAE-horizontal {
+    width: 300px;
+    height: 200px;
+    background: 
+        linear-gradient(to bottom, #00732f 0%,#00732f 33%,#ffffff 33%,#ffffff 66%,#000000 66%,#000000);
+} 
