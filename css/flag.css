@@ -12,8 +12,8 @@
 }
 
 .flag-base_2-3 {
-    width: 240px;
-    height: 160px;
+    width: 720px;
+    height: 480px;
     border: 1px solid #000
 }
 
@@ -21,31 +21,75 @@
     display: flex;
 }
 
-div.japan-circle {
+.japan-circle {
     width: 90px;
     height: 90px; 
-    background-color: #d7003a;
     border-radius: 50%;
-}
-
-.middle {
+    background-color: #d7003a;
     margin: auto;
+
 }
 
 .UAE-pos {
     display: flex;
 }
 
-div.UAE-vertical {
+.UAE-vertical {
     width: 75px;
     height: 150px;
     background:#ff0000 0%;
 } 
 
-div.UAE-horizontal {
+.UAE-horizontal {
     width: 225px;
     height: 150px;
     background: 
         linear-gradient(to bottom, #00732f 0%,#00732f calc(100%/3),#ffffff calc(100%/3),#ffffff calc(200%/3),#000000 calc(200%/3),#000000);
 } 
 
+.korea-pos {
+    display: flex;
+}
+
+.korea-center-circle {
+    margin: auto;
+    display: flex;
+    position:relative;
+    transform: rotate(2.16rad);
+    transform-origin: 50% 50%;
+}
+
+.korea-center-circle-red {
+    width: 120px;
+    height: 240px; 
+    border-radius: 100% 0 0 100%/50% 0 0 50%;
+    background-color:#cd2e3a;
+}
+
+.korea-center-circle-blue {
+    width: 120px;
+    height: 240px; 
+    border-radius: 0 100% 100% 0/0 50% 50% 0;
+    background-color: #0047a0;
+}
+
+.korea-small-circle-red {
+    position: absolute;
+    left:60px;
+    top:120px;
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%;
+    background-color: #cd2e3a;
+}
+
+
+.korea-small-circle-blue {
+    position: absolute;
+    left:60px;
+    top:0px;
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%;
+    background-color: #0047a0;
+}
