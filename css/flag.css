@@ -47,8 +47,11 @@
         linear-gradient(to bottom, #00732f 0%,#00732f calc(100%/3),#ffffff calc(100%/3),#ffffff calc(200%/3),#000000 calc(200%/3),#000000);
 } 
 
+
+
 .korea-pos {
     display: flex;
+    position: relative;
 }
 
 .korea-center-circle {
@@ -92,4 +95,53 @@
     height: 120px; 
     border-radius: 50%;
     background-color: #0047a0;
+}
+
+.big-rectangle {
+        position:relative;
+    width: 120px;
+    height: calc(480px*2/48);
+    background-color: #000;
+}
+
+.small-rectangle {
+    width: calc(480px*11/96); 
+    height: calc(480px*2/48);
+    background-color: #000;
+}
+
+.box {
+    position:absolute;
+    width: 120px;
+    height: calc(480px*8/48);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-content: space-between;
+    left: 50%;
+    transform-origin: 50% calc(480px*26/48);
+}
+
+.upper-left {
+    transform:
+        translate(-50%, calc(-480px/24)) 
+        rotate(-0.98rad);
+}
+
+.upper-right {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(0.98rad);
+}
+
+.lower-right {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(calc(90deg + 0.59rad));
+}
+
+.lower-left {
+    transform:
+        translate(-50%, calc(-480px/24))
+        rotate(calc(-90deg - 0.59rad));
 }
