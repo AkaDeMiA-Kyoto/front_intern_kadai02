@@ -1,1 +1,174 @@
+@charset "UTF-8";
+.japan_rectangle{
+    position: relative;
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    border: solid 1px #000000;
+}
 
+.japan_circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d7003a;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+/*以下UAE*/
+
+.UAE_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 300px;
+}
+
+.UAE_vertical_line{
+    width: 150px;
+    height: 300px;
+}
+
+.UAE_border{
+    width: 450px;
+    height: 100px;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.green{
+    background-color: #00732f;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.black{
+    background-color: #000000;
+}
+
+/*以下韓国*/
+
+.korea_rectangle{
+    position: relative;
+    background-color: #ffffff;
+    width: 720px;
+    height: 480px;
+    border: solid 1px #000000;
+    z-index: 0;
+}
+
+.big_circle_red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #cd2e3a;
+    z-index: 1;
+}
+
+.big_circle_blue{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transform: rotate(0.59rad);
+    transform-origin: 25% -165%;
+    width: 240px;
+    height: 120px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    background-color: #0047a0;
+    z-index: 2;
+}
+
+.small_circle_red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: translate(0%, -50%) rotate(-2.59rad);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #cd2e3a;
+    z-index: 3;
+}
+
+.small_circle_blue{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: translate(0%, -50%) rotate(0.59rad);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #0047a0;
+    z-index: 3;
+}
+/*黒のとこ*/
+.korea_container{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80px;
+    height: 120px;
+}
+
+.korea_lineposition1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: translate(0%, -50%) rotate(-0.59rad) translateX(180px);
+}
+
+.korea_lineposition2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100% 50%;
+    transform: translate(-100%, -50%) rotate(0.59rad) translateX(-180px) ;
+}
+
+.korea_lineposition3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100% 50%;
+    transform: translate(-100%, -50%) rotate(-0.59rad) translateX(-180px) ;
+}
+
+.korea_lineposition4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: translate(0%, -50%) rotate(0.59rad) translateX(180px) ;
+}
+
+
+.korea_long{
+    width: 20px;
+    height: 120px;
+    background-color: #000000;
+}
+
+.korea_short{
+    width: 20px;
+    height: 55px;
+    background-color: #000000;
+}
