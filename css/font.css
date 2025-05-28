@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.font {
+    margin: 30px;
+}
+
 .Roboto {
     font-family:'Roboto' serif;
     font-size: 50px;
@@ -27,4 +31,48 @@
 .medium500italic {
     font-weight: 500;
     font-style: italic;
+}
+
+.FA {
+    margin: 30px;
+}
+
+.icon-title {
+    font-size: 30px;
+}
+
+.twitter-size {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #1DA1F2 ;
+}
+
+.search {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2");
+}
+
+.search::before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  content: '\f002';
+  margin-right: 10px;
+}
+
+.notch-title {
+    font-size: 30px;
+}
+
+.notch-size {
+    font-size: 50px;
+    margin: 20px 0;
 }
