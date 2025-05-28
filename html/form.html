@@ -8,15 +8,44 @@
 </head>
 <body>
     <form action="#" class="form">
-        <fieldset class="form-block">
+        <fieldset class="form-block mail">
             <legend class="form-title">メールアドレス</legend>
-            <input type="email" class="email">
+            <input type="email" name="email" class="email" placeholder="メールアドレスを入力">
         </fieldset>
-        <fieldset class="form-block"></fieldset>
-        <fieldset class="form-block"></fieldset>
-        <fieldset class="form-block"></fieldset>
-        <fieldset class="form-block"></fieldset>
-        <fieldset class="form-block"></fieldset>
+        <fieldset class="form-block radiobtn">
+            <legend class="form-title">好きなものは？</legend>
+            <input type="radio" name="radio" id="radio1" value="1">
+                <label for="radio1">カレー</label>
+            <input type="radio" name="radio" id="radio2" value="2">
+                <label for="radio2">寿司</label>
+            <input type="radio" name="radio" id="radio3" value="3">
+                <label for="radio3">焼肉</label>
+            <input type="radio" name="radio" id="radio4" value="4" checked>
+                <label for="radio4">その他</label>
+        </fieldset>
+        <fieldset class="form-block checkboxs">
+            <legend class="form-title">好きなものは？</legend>
+            <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+                <label for="checkbox1">カレー</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                <label for="checkbox2">寿司</label>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                <label for="checkbox3">焼肉</label>
+            <input type="checkbox" name="checkbox" id="checkbox4" value="4" checked>
+                <label for="checkbox4">その他</label>
+        </fieldset>
+        <fieldset class="form-block calendar">
+            <legend class="form-title">カレンダー</legend>
+            <input type="date" name="date" class="date">
+        </fieldset>
+        <fieldset class="form-block range-block">
+            <legend class="form-title">range</legend>
+            <input type="range" class="range" min="0" max="100" value="0">
+        </fieldset>
+        <fieldset class="form-block password">
+            <legend class="form-title">パスワード</legend>
+            <input type="password" class="pwd" placeholder="パスワードを入力">
+        </fieldset>
     </form>
 </body>
 </html>

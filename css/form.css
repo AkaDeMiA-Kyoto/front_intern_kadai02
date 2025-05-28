@@ -1,4 +1,40 @@
 @charset "UTF-8";
+.form {
+    position: relative;
+    width: 100%;
+}
 .form-block {
+    position: absolute;
+    width: 50%;
+    height: 50px;
     margin: 20px 30px;
+}
+
+.mail {
+    top: 0;
+}
+
+.radiobtn {
+    top: 90px;
+}
+
+.checkboxs {
+    top: 180px;
+}
+
+.calendar {
+    top: 270px;
+}
+
+.range-block {
+    top: 360px;
+}
+
+.password {
+    top: 450px;
+}
+
+.email .pwd {
+    width: 50%;
+    height: 25px;
 }
