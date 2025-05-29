@@ -1,1 +1,48 @@
-国旗をHTML/CSSで作成してみよう
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./../css/flag.css" />
+  <title>国旗作成</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="frame">
+      <div class="circle__main">
+        <div class="circle__semi--top red"></div>
+        <div class="circle__small--left red"></div>
+        <div class="circle__semi--down blue"></div>
+        <div class="circle__small--right blue"></div>
+      </div>
+      <!-- main-circle -->
+      <div class="line__wrapper  rotate-30 ">
+        <div class="line black"></div>
+        <div class="line black"></div>
+        <div class="line black"></div>
+      </div>
+      <!-- line-left-top -->
+      <div class="line__wrapper  rotate-330 ">
+        <div class="line black"></div>
+        <div class="line line--dashed black"></div>
+        <div class="line black"></div>
+      </div>
+      <!-- line-left-bottom -->
+      <div class="line__wrapper rotate-150">
+        <div class="line line--dashed black"></div>
+        <div class="line line black"></div>
+        <div class="line line--dashed black"></div>
+      </div>
+      <!-- line-right-top -->
+      <div class="line__wrapper  rotate-210">
+        <div class="line line--dashed black"></div>
+        <div class="line line--dashed black"></div>
+        <div class="line line--dashed black"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
