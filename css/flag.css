@@ -1,6 +1,17 @@
 @charset "UTF-8";
-.japanese-flag {
+.flag {
   width: 300px;
   height: 200px;
   border: 1px solid #000;
+}
+
+.japanese-flag {
+  background: #fff;
+}
+
+.red-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #d7003a;
 }
