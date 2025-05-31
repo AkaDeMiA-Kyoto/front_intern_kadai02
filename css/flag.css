@@ -33,6 +33,7 @@
   position: absolute;
   top: 0%;
   left: 25%;
+  z-index: 1;
 }
 
 .color-line {
@@ -42,6 +43,7 @@
   position: absolute;
   top: calc(100% / 3)%;
   left: 25%;
+  z-index: 1;
 }
 
 .color-line {
@@ -51,5 +53,6 @@
   position: absolute;
   top: calc(200% / 3)%;
   left: 25%;
+  z-index: 1;
 }
 
