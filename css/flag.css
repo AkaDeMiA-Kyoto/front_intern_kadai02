@@ -57,7 +57,28 @@
   z-index: 1;
 }
 
-.red-big-circle {}
+.korea-flag {
+  width: 360px;
+  height: 240px;
+  background: #ffffff;
+  position: relative;
+  border: 1px solid #000000;
+}
+
+.red-big-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  background: #cd2e3a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 100px 100px;
+  border-top-right-radius: 100px 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
 .blue-big-circle {}
 
