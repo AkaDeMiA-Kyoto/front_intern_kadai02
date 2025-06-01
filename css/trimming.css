@@ -1,1 +1,15 @@
-
+.frame {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.frame > img {
+  position: absolute;
+  width: 430%;
+  height: 300%;
+  object-fit: contain;
+  right: -125%;
+  top: -72%;
+}
