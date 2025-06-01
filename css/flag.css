@@ -160,7 +160,7 @@
   width: 130px;
   height: 60px;
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   left: 50px;
   transform: translate(0,-50%) rotate(-33.69deg);
   transform-origin: 100% 50%;
@@ -261,7 +261,7 @@
   width: 130px;
   height: 60px;
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   right: 50px;
   transform: translate(0,-50%) rotate(33.69deg);
   transform-origin: 0 50%;
