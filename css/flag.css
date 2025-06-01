@@ -120,13 +120,12 @@
 }
 
 .lines-top-left {
-  width: 130px;
+  width: 40px;
   height: 60px;
   position: absolute;
-  top: 90px;
-  left: 50px;
+  top: 59px;
+  left: 88.5px;
   transform: rotate(33.69deg);
-  transform-origin: 100% 50%;
 }
 
 .black-big-line1 {
@@ -157,13 +156,12 @@
 }
 
 .lines-bottom-left {
-  width: 130px;
+  width: 40px;
   height: 60px;
   position: absolute;
-  top: 90px;
-  left: 50px;
+  bottom: 59px;
+  left: 88.5px;
   transform: rotate(-33.69deg);
-  transform-origin: 100% 50%;
 }
 
 .black-big-line4 {
@@ -203,13 +201,12 @@
 }
 
 .lines-top-right {
-  width: 130px;
+  width: 40px;
   height: 60px;
   position: absolute;
-  top: 90px;
-  left: 270px;
+  top: 59px;
+  right: 88.5px;
   transform: rotate(-33.69deg);
-  transform-origin: 0 50%;
 }
 
 .black-big-line6 {
@@ -258,13 +255,12 @@
 }
 
 .lines-bottom-right {
-  width: 130px;
+  width: 40px;
   height: 60px;
   position: absolute;
-  top: 90px;
-  left: 270px;
+  bottom: 59px;
+  right: 88.5px;
   transform: rotate(33.69deg);
-  transform-origin: 0 50%;
 }
 
 .black-small-line7 {
