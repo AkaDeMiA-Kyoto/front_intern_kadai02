@@ -120,12 +120,12 @@
 }
 
 .lines-top-left {
-  width: 40px;
+  width: 130px;
   height: 60px;
   position: absolute;
-  top: 59px;
-  left: 88.5px;
-  transform: rotate(33.69deg);
+  top: 50%;
+  left: 50px;
+  transform: translate(0,-50%) rotate(33.69deg);
 }
 
 .black-big-line1 {
