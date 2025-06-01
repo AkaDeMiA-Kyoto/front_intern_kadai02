@@ -1,1 +1,49 @@
-いろいろなフォームを作ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>課題2 form</title>
+  </head>
+  <body>
+    <form action="post">
+      <input type="email" />
+    </form>
+    <form action="" method="post">
+      <fieldset>
+        <legend>好きなものは？</legend>
+        <label> <input type="radio" name="radio1" value="curry" />カレー</label>
+        <label><input type="radio" name="radio2" value="sushi" />お寿司</label>
+        <label><input type="radio" name="radio3" value="yakiniku" />焼肉</label>
+        <label><input type="radio" name="radio4" value="others" />その他</label>
+      </fieldset>
+    </form>
+    <form action="" method="post">
+      <fieldset>
+        <legend>好きなものは？</legend>
+        <label><input type="checkbox" name="box1" value="curry" />カレー</label>
+        <label><input type="checkbox" name="box2" value="sushi" />お寿司</label>
+        <label>
+          <input type="checkbox" name="box3" value="yakiniku" />
+          焼肉
+        </label>
+        <label>
+          <input type="checkbox" name="box4" value="others" />
+          その他
+        </label>
+      </fieldset>
+    </form>
+    <form action="post">
+      date:
+      <input type="date" name="date" />
+    </form>
+    <form action="">
+      range:
+      <input type="range" name="range" />
+    </form>
+    <form action="">
+      password:
+      <input type="password" name="password" />
+    </form>
+  </body>
+</html>
