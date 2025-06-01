@@ -105,7 +105,7 @@
   background: #cd2e3a;
   top: 50%;
   left: 0;
-  transform: (0,-50%);
+  transform: translate(0,-50%);
 }
 
 .blue-small-circle {
@@ -116,7 +116,7 @@
   background: #0047a0;
   top: 50%;
   right: 0;
-  transform: (0,-50%)
+  transform: translate(0,-50%)
 }
 
 .black-big-line1 {}
