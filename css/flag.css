@@ -65,34 +65,36 @@
   border: 1px solid #000000;
 }
 
-.red-big-circle {
-  width: 120px;
-  height: 120px;
+.center-circle {
   position: absolute;
-  background: #cd2e3a;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border-top-left-radius: 100px 100px;
-  border-top-right-radius: 100px 100px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  transform: rotate(33.69deg);
+  width: 120px;
+  height: 120px;
+  transform: translate(-50%, -50%) rotate(33.69deg);
+  border-radius: 50%;
+}
+
+.red-big-circle {
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  background: #cd2e3a;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
 }
 
 .blue-big-circle {
   width: 120px;
-  height: 120px;
+  height: 60px;
   position: absolute;
   background: #0047a0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 100px 100px;
-  border-bottom-right-radius: 100px 100px;
-  transform: rotate(33.69deg);
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .red-small-circle {
@@ -102,9 +104,8 @@
   position: absolute;
   background: #cd2e3a;
   top: 50%;
-  left: 150px;
-  transform: rotate(33.69deg);
-  transform-origin: 100% 50%;
+  left: 0;
+  transform: (0,-50%);
 }
 
 .blue-small-circle {
@@ -114,9 +115,8 @@
   position: absolute;
   background: #0047a0;
   top: 50%;
-  left: 210px;
-  transform: rotate(33.69deg);
-  transform-origin: 0 0;
+  right: 0;
+  transform: (0,-50%)
 }
 
 .black-big-line1 {}
