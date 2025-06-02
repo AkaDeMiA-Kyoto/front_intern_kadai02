@@ -1,1 +1,11 @@
+@charset "UFT-8";
+.form {
+    width: auto;
+    height: auto;
+    margin: 0 40px;
+}
 
+.form-block {
+    max-width: 768px;
+    padding: 4%;
+}
