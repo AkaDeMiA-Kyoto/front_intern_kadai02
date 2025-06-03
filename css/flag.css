@@ -1,1 +1,270 @@
-
+@charset "UTF-8";
+.flag{
+  display: flex;
+  margin: 10px;
+}
+.frame{
+  position: relative;
+  background: #fff;
+  display: block;
+  border: 1px solid #000;
+  width: 72px;
+  height: 48px;
+  margin: 10px;
+}
+.circle {
+  position: relative;
+  background: #d7003a;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  left: 24px;
+  top: 12px;
+}
+.red-line{
+  position: relative;
+  background: #ff0000;
+  display: block;
+  width: 20px;
+  height: 48px;
+}
+.right-lines{
+  position: absolute;
+  display: block;
+  height: 16px;
+  width: 52px;
+}
+.green-line{
+  position: absolute;
+  background: #00732f;
+  display: block;
+  width: 72px;
+  height: 16px;
+}
+.white-line{
+  position: absolute;
+  display: block;
+  width: 72px;
+  height: 16px;
+  background: #fff;
+  top: 16px;
+}
+.black-line{
+  position: absolute;
+  display: block;
+  width: 72px;
+  height: 16px;
+  background: #000;
+  top: 32px;
+}
+.rotate1{
+  position: relative;
+  width: 72px;
+  height: 48px;
+  transform: rotate(32deg);
+}
+.red-semicircle{
+  position: relative;
+  background: #cd2e3a;
+  width: 24px;
+  height: 12px;
+  border-radius: 100px 100px 0 0;
+  left: 24px;
+  top: 12px;
+}
+.blue-semicircle{
+  position: relative;
+  background: #0047a0;
+  width: 24px;
+  height: 12px;
+  border-radius: 0 0 100px 100px;
+  left: 24px;
+  top: 12px;
+}
+.red-circle{
+  position: absolute;
+  background: #cd2e3a;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: 24px;
+  top: 18px;
+}
+.blue-circle{
+  position: absolute;
+  background: #0047a0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: 36px;
+  top: 18px;
+}
+.line1{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 10px;
+  top: 18px;
+}
+.line2{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 13px;
+  top: 18px;
+}
+.line3{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 16px;
+  top: 18px;
+}
+.line4{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 54px;
+  top: 18px;
+}
+.line5{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 57px;
+  top: 18px;
+}
+.line6{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 60px;
+  top: 18px;
+}
+.line7{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 54px;
+  top: 24.5px;
+}
+.line8{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 57px;
+  top: 24.5px;
+}
+.line9{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 60px;
+  top: 24.5px;
+}
+.rotate2{
+  position: absolute;
+  width: 72px;
+  height: 48px;
+  bottom: 0;
+  transform: rotate(-32deg);
+}
+.line10{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 10px;
+  top: 18px;
+}
+.line11{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 13px;
+  top: 18px;
+}
+.line12{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 13px;
+  top: 24.5px;
+}
+.line13{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 16px;
+  top: 18px;
+}
+.line14{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 54px;
+  top: 18px;
+}
+.line15{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 54px;
+  top: 24.5px;
+}
+.line16{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 12px;
+  width: 2px;
+  left: 57px;
+  top: 18px;
+}
+.line17{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 60px;
+  top: 18px;
+}
+.line18{
+  position: absolute;
+  background: #000;
+  display: block;
+  height: 5.5px;
+  width: 2px;
+  left: 60px;
+  top: 24.5px;
+}

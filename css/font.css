@@ -1,1 +1,36 @@
-
+@charset "UTF-8";
+.thin100 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:  100px;
+}
+.medium500 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 100px;
+}
+.bold700 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: 100px;
+}
+.U-medium500 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: 100px;
+}
+.U-medium500-I{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-variation-settings: 100px;
+}
