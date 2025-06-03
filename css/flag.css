@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.flame {
+    display: block;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    color: black;
+    border-color: #000;
+    border: #000 solid 1px;
+    position: absolute;
+
+
+
+
+}
+.circle {
+    background: #d7003a;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
