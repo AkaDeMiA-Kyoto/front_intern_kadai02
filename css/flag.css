@@ -17,3 +17,61 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.uae-flag {
+  width: 400px;
+  height: 201px;
+  background-color: #ff0000;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.uae-flag-green {
+  width: 300px;
+  height: 67px;
+  background-color: #00732f;
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+.uae-flag-white {
+  width: 300px;
+  height: 67px;
+  background-color: #fff;
+  position: absolute;
+  top: 33%;
+  left: 25%;
+}
+
+.uae-flag-black {
+  width: 300px;
+  height: 67px;
+  background-color: #000;
+  position: absolute;
+  top: 66%;
+  left: 25%;
+}
+
+.korea-flag {
+  width: 288px;
+  height: 192px;
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.center-circle-red1 {
+  display: inline-block;
+  width: 96px;
+  height: 48px;
+  border-radius: 50% / 100% 100% 0 0;
+  background: #cd2e3a;
+  transform: translate(-50%,-50%);
+}
