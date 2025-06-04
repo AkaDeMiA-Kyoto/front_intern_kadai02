@@ -1,1 +1,60 @@
-いろいろなフォームを使ってみよう
+いろいろなフォームを使ってみよう<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <p>いろいろなフォームを作ってみよう</p>
+  <label for="email">Enter your example.com email:</label>
+  <input type="email" id="email" pattern=".+@example\.com" size="30" required>
+  <fieldset>
+    <legend>好きなものは？(ラジオボタン):</legend>
+    <div>
+        <input type="radio" id="カレー" name="favorite" value="カレー"/>
+        <label for="カレー">カレー</label>
+    </div> 
+    <div>
+        <input type="radio" id="お寿司" name="favorite" value="お寿司"/>
+        <label for="お寿司">お寿司</label>
+    </div> 
+    <div>
+        <input type="radio" id="焼肉" name="favorite" value="焼肉"/>
+        <label for="焼肉">焼肉</label>
+    </div> 
+    <div>
+        <input type="radio" id="その他" name="favorite" value="その他"/>
+        <label for="その他">その他</label>
+    </div> 
+  </fieldset>
+  <fieldset>
+    <legend>好きなものは？(チェックボックス):</legend>
+    <div>
+        <input type="checkbox" id="カレー" name="favorite" value="カレー"/>
+        <label for="カレー">カレー</label>
+    </div> 
+    <div>
+        <input type="checkbox" id="お寿司" name="favorite" value="お寿司"/>
+        <label for="お寿司">お寿司</label>
+    </div> 
+    <div>
+        <input type="checkbox" id="焼肉" name="favorite" value="焼肉"/>
+        <label for="焼肉">焼肉</label>
+    </div> 
+    <div>
+        <input type="checkbox" id="その他" name="favorite" value="その他"/>
+        <label for="その他">その他</label>
+    </div> 
+  </fieldset>
+  <label for="birthday">Birthday date:</label>
+  <input type="date" id="birthday"/>
+  <p>今の気分は？</p>
+  <div>
+    <input type="range" id="Good" name="Good" min="0" max="10"/>
+    <label for="Good">Good</label>
+  </div> 
+  <div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password" minlength="8" required/>
+  </div>
+</body>
+</html>
