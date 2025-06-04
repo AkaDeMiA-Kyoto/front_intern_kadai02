@@ -1,56 +1,28 @@
-<!--Webフォント、FontAwsomeを使ってみよう-->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
-    <title>いろいろなフォームを作ってみよう</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<title class="page-title">Webフォント、FontAwsomeを使ってみよう</title>
 </head>
 <body>
-    <header>いろいろなフォームを作ってみよう</header>
-    <form action="#" class="form">
-        <fieldset class="form-block">
-            <legend class="form-title">email<span class="must">*必須</span></legend>
-            <div class="form-input"><input type="text" class="input-text"></div>
-        </fieldset>
-        <fieldset class="form-block">
-            <legend class="form-title">好きな食べ物は？<span class="must">*必須</span></legend>
-            <div class="form-input">
-                <input type="radio" name="radio" id="radio1" value="1" checked>
-                <label for="radio1">カレー</label>
-                <input type="radio" name="radio" id="radio2" value="2">
-                <label for="radio2">お寿司</label>
-                <input type="radio" name="radio" id="radio3" value="3">
-                <label for="radio3">焼肉</label>
-                <input type="radio" name="radio" id="radio4" value="4">
-                <label for="radio4">その他</label>
-            </div>
-        </fieldset>
-        <fieldset class="form-block">
-            <legend class="form-title">好きな食べ物は？<span class="must">*必須</span></legend>
-            <div class="form-input">
-                <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
-                <label for="checkbox1">カレー</label>
-                <input type="checkbox" name="checkbox" id="checkbox2" value="2">
-                <label for="checkbox2">お寿司</label>
-                <input type="checkbox" name="checkbox" id="checkbox3" value="3">
-                <label for="rcheckbox3">焼肉</label>
-                <input type="checkbox" name="radio" id="checkbox4" value="4">
-                <label for="checkbox4">その他</label>
-            </div>
-        </fieldset>
-        <fieldset class="form-block">
-            <legend class="form-title">カレンダー<span class="must">*必須</span></legend>
-            <input type="date" name="date" id="date">
-        </fieldset>
-        <fieldset class="form-block">
-            <legend class="form-title">range<span class="must">*必須</span></legend>
-            <input type="range" name="range" id="range">
-        </fieldset>
-        <fieldset class="form-block">
-            <legend class="form-title">パスワード<span class="must">*必須</span></legend>
-            <input type="password" name="password" id="password">
-        </fieldset>
-    </form>
+    <header>Webフォント、FontAwsomeを使ってみよう</header>
+    <section>
+        <div class="roboto-thin">赤ピクミンは火に強い</div>
+        <div class="roboto-medium">青ピクミンは溺れない</div>
+        <div class="ubuntu-medium">黄ピクミンは高く飛ぶ</div>
+        <div class="ubuntu-bold">紫ピクミン力もち</div>
+        <div class="ubuntu-bold-italic">白ピクミンには毒がある</div><br>
+    </section>
+    <section>
+        <i class="fa-brands fa-twitter"></i><br>
+        <i class="fa-solid fa-magnifying-glass">検索</i><br>
+        <i class="fa-solid fa-spin fa-circle-notch"></i>
+    </section>
 </body>
 </html>
