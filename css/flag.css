@@ -17,3 +17,249 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.flag.UAE-flag {
+  width: 300px;
+  height: 150px;
+  background: #fff;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.rectangle-red {
+  width: 75px;
+  height: 150px;
+  position: absolute;
+  background: #f00;
+}
+
+.rectangle-black {
+  width: 225px;
+  height: 50px;
+  position: absolute;
+  background: #000;
+  top: 66.66%;
+  left: 25%;
+}
+
+.rectangle-green {
+  width: 225px;
+  height: 50px;
+  position: absolute;
+  background: #00732f;
+  left: 25%;
+}
+
+.flag.korea-flag {
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.harf-circle-red {
+  width: 100px;
+  height: 50px;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  background: #cd2e3a;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50px 50px;
+  transform: translate(-50px, -50px) rotate(33.69deg);
+}
+
+.harf-circle-blue {
+  width: 100px;
+  height: 50px;
+  border-radius: 0 0 100px 100px;
+  position: absolute;
+  background: #0047a0;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50px 0;
+  transform: translate(-50px, 0) rotate(33.69deg);
+}
+
+.circle-red {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background: #cd2e3a;
+  left: calc(150px - 75px/sqrt(13));
+  top: calc(100px - 50px/sqrt(13));
+  transform: translate(-50%, -50%);
+}
+
+.circle-blue {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background: #0047a0;
+  left: calc(150px + 75px/sqrt(13));
+  top: calc(100px + 50px/sqrt(13));
+  transform: translate(-50%, -50%);
+}
+
+.blackbox1 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*19/sqrt(13));
+  top: calc(100px - 25px/3*19/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox2 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*22/sqrt(13));
+  top: calc(100px - 25px/3*22/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox3 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*25/sqrt(13));
+  top: calc(100px - 25px/3*25/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox4 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*19/sqrt(13));
+  top: calc(100px + 25px/3*19/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox5 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*22/sqrt(13));
+  top: calc(100px + 25px/3*22/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox6 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*25/sqrt(13));
+  top: calc(100px + 25px/3*25/sqrt(13));
+  transform: translate(-50%, -50%) rotate(33.69deg);
+}
+
+.blackbox7 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*19/sqrt(13));
+  top: calc(100px + 25px/3*19/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.blackbox8 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*22/sqrt(13));
+  top: calc(100px + 25px/3*22/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.blackbox9 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px - 25px/2*25/sqrt(13));
+  top: calc(100px + 25px/3*25/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.blackbox10 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*19/sqrt(13));
+  top: calc(100px - 25px/3*19/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.blackbox11 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*22/sqrt(13));
+  top: calc(100px - 25px/3*22/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.blackbox12 {
+  width: calc(200px/24);
+  height: calc(200px/4);
+  position: absolute;
+  background: #000;
+  left: calc(150px + 25px/2*25/sqrt(13));
+  top: calc(100px - 25px/3*25/sqrt(13));
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+}
+
+.whitebox1 {
+  width: calc(200px/6);
+  height: calc(200px/48);
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%) rotate(33.69deg);
+  left: calc(150px + 25px/2*22/sqrt(13));
+  top: calc(100px + 25px/3*22/sqrt(13));
+}
+
+.whitebox2 {
+  width: calc(200px/24);
+  height: calc(200px/48);
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+  left: calc(150px - 25px/2*22/sqrt(13));
+  top: calc(100px + 25px/3*22/sqrt(13));
+}
+
+.whitebox3 {
+  width: calc(200px/24);
+  height: calc(200px/48);
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+  left: calc(150px + 25px/2*19/sqrt(13));
+  top: calc(100px - 25px/3*19/sqrt(13));
+}
+
+.whitebox4 {
+  width: calc(200px/24);
+  height: calc(200px/48);
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%) rotate(-33.69deg);
+  left: calc(150px + 25px/2*25/sqrt(13));
+  top: calc(100px - 25px/3*25/sqrt(13));
+}
