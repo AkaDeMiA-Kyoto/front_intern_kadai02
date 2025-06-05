@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="../css/trimming.css">
     <link rel="icon" href="../img/man.jpg">
     <style>
+      body {
+        position: relative;
+      }
       .man-face {
         width: 400px;
         height: 400px;
-        position: relative;
-        border-radius: 50%;
-        overflow: hidden;
-      }
-      .man-face img {
         top: 50%;
         left: 60%;
-        width: 100%;
-        height: 100%;
         position: absolute;
-        object-fit: cover;
+        border-radius: 50%;
+        overflow: hidden;
         transform: translate(-50%, -50%);
+      }
+      .man-face img {
+        object-fit: cover;
       }
     </style>
   </head>
