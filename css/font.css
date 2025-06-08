@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.font-block {
+    position: relative;
+    width: 600px;
+    border-color: black;
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+
+.Roboto-thin-100 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 20px;
+}
+
+.Roboto-medium-500 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 20px;
+}
+
+.Roboto-bold-700 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 20px;
+}
+
+.Ubuntu-medium-500 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.Ubuntu-medium-500-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.fa-icon::before {
+content: '\f002';
+font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+padding: 0 7px 0 0
+}

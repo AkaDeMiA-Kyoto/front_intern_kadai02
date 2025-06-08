@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.fieldset1 {
+    width: 50%;
+    padding-bottom: 5px;
+    border: 0px;
+    border-color: #fff;
+}
+
+.form-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+    
+.fieldset2{
+    width: 100%;
+    padding-bottom: 5px;
+    border: 0px;
+    border-color: #fff;
+}
+
+.radiobox {
+    font-size: 12px;
+}
+
+.fieldset3 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+    border: 0px;
+    border-color: #fff;
+}
+
+.calender {
+    height: 24px;
+}
+
+.fieldset4 {
+    position: relative;
+    width: 50%;
+    padding-bottom: 5px;
+    border: 0px;
+    border-color: #fff;
+}
+
+.texbox {
+    width: 200px ;
+    height: 15px ;
+}
+ 
+.submit-btn {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}

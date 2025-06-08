@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.man img {
+    width : 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+img {
+  object-fit: cover;
+}
