@@ -1,1 +1,93 @@
 いろいろなフォームを使ってみよう
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- IEの互換モードの無効化 -->
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"> <!-- レスポンシブデザインのため -->
+    <title>FORM</title>
+    <link rel="shortcut icon" href=""><!-- rel="shortcut icon"でファビコン -->
+    <link rel="apple-touch-icon" href=""><!-- rel="apple-touch-icon"でタッチアイコン -->
+</head>
+<body>
+    <form action="#(送信先)" class="form">
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                e-mail
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <input type="email" name="" id="" required> <!-- requiredは必須になる -->
+            </div>
+        </fieldset>
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                好きなものは？
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <input type="radio" name="radio" id="radio1" value="1">
+                <label for="radio1">カレー</label>
+                <input type="radio" name="radio" id="radio2" value="2">
+                <label for="radio2">お寿司</label>
+                <input type="radio" name="radio" id="radio3" value="3">
+                <label for="radio1">焼肉</label>
+                <input type="radio" name="radio" id="radio4" value="4">
+                <label for="radio2">その他</label>
+                <!-- 同じ質問は同じname -->
+            </div>
+        </fieldset>
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                好きなものは？
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+                <label for="checkbox1">カレー</label>
+                <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                <label for="checkbox2">お寿司</label>
+                <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                <label for="checkbox2">焼肉</label>
+                <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                <label for="checkbox2">その他</label>
+                <!-- 同じ質問は同じname -->
+            </div>
+        </fieldset>
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                日付
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <input type="date" min="2025-05-01" max="2025-06-30">
+                <!-- 同じ質問は同じname -->
+            </div>
+        </fieldset>
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                満足度
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <span>0</span>
+                <input type="range" min=”0″ max=”10″ step=”1″ value=”5″>
+                <span>10</span>
+                <!-- 同じ質問は同じname -->
+            </div>
+        </fieldset>
+        <fieldset class="form-block"> <!-- 入力項目のグループ化 -->
+            <legend class="form-title"> <!-- グループのタイトル -->
+                パスワード
+                <span class="must">*必須</span>
+            </legend>
+            <div class="form-input">
+                <input type="password" id="password" name="password" placeholder="6~16文字の英数字のみ" maxlength="16" pattern="^[a-zA-Z0-9]{6,}$" required>
+                <!-- 同じ質問は同じname -->
+            </div>
+        </fieldset>
+        <button class="submit-btn">送信</button>
+    </form>
+</body>
+</html>

@@ -1,1 +1,78 @@
 国旗をHTML/CSSで作成してみよう
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- IEの互換モードの無効化 -->
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"> <!-- レスポンシブデザインのため -->
+    <title>Flag</title>
+    <link rel="shortcut icon" href=""><!-- rel="shortcut icon"でファビコン -->
+    <link rel="apple-touch-icon" href=""><!-- rel="apple-touch-icon"でタッチアイコン -->
+    <link rel="stylesheet" href="../css/flag.css">
+</head>
+<body>
+    <div class="Japan">
+        <div class="white-jp">
+            <div class="red-jp"></div>
+        </div>
+    </div>
+
+    <div class="UAE">
+        <ul class="red-uae">
+            <div class="wrap"> <!-- 縦並びのため -->
+            <li class="green-uae"></li>
+            <li class="white-uae"></li>
+            <li class="black-uae"></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="Korea">
+        <div class="white-rectangle-ko"> <!-- 一番大きい白の長方形 -->
+            <div class="transparent-rectangle-rotation-1"> <!-- 回転用の透明の長方形1 -->
+                <div class="black-left-upper-ko"> <!-- 左上の黒い長方形の集まり -->
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+                <div class="black-right-lower-ko"> <!-- 右下の黒い長方形の集まり -->
+                    <div class="b9"></div>
+                    <div class="b10"></div>
+                    <div class="b11"></div>
+                    <div class="b12"></div>
+                    <div class="b13"></div>
+                    <div class="b14"></div>
+                </div>
+            </div>
+            <div class="transparent-rectangle-rotation-2"> <!-- 回転用の透明の長方形2 -->
+                <div class="black-right-upper-ko"> <!-- 右上の黒い長方形の集まり -->
+                    <div class="b6"></div>
+                    <div class="small">
+                        <div class="b4"></div>
+                        <div class="b5"></div>
+                        <div class="b7"></div>
+                        <div class="b8"></div>
+                    </div>
+                </div>
+                <div class="black-left-lower-ko"> <!-- 左下の黒い長方形の集まり -->
+                    <div class="b15"></div>
+                    <div class="b16"></div>
+                    <div class="b17"></div>
+                    <div class="b18"></div>
+                </div>
+            </div>
+            <div class="circle"> <!-- 円の部分 -->
+                <div class="big-circle">
+                    <div class="red-circle-ko"></div>
+                    <div class="blue-circle-ko"></div>
+                </div>
+                <div class="mini-circle">
+                    <div class="red-circle-ko-mini"></div>
+                    <div class="blue-circle-ko-mini"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,277 @@
+/* ここからJapan */
+
+.white-jp {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background: white;
+    border: 1px solid black;
+}
+
+.red-jp {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #d7003a;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+
+
+/* ここからUAE */
+
+
+
+.red-uae {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    background: #ff0000;
+    display: flex;
+    flex-flow: column;
+}
+
+.wrap {
+    position: absolute;
+    right: 0;
+}
+
+
+li {
+    list-style: none;
+    width: 260px;
+    height: 50px;
+    right: 0;
+}
+
+.green-uae {
+    background: #00732f;
+    z-index: 2;
+}
+.white-uae {
+    background: #fff;
+    z-index: 2;
+}
+.black-uae {
+    background: #000;
+    z-index: 2;
+}
+
+
+/* ここからKorea */
+
+
+.white-rectangle-ko {
+    width: 720px;
+    height: 480px;
+    position: relative;
+    background: white;
+    border: 1px solid black;
+}
+
+.transparent-rectangle-rotation-1 {
+    width: 720px;
+    height: 480px;
+    transform: rotate(33.5deg);
+    transform-origin: 50% 50%;
+    z-index: 2;
+    position: relative;
+    position: absolute;
+}
+
+.transparent-rectangle-rotation-2 {
+    width: 720px;
+    height: 480px;
+    transform: rotate(56.5deg);
+    transform-origin: 50% 50%;
+    z-index: 2;
+    position: absolute;
+}
+
+.black-left-upper-ko *, .black-right-upper-ko *, .black-left-lower-ko *, .black-right-lower-ko * {
+    background: #000;
+}
+
+
+.black-right-lower-ko * {
+    width: 20px;
+    height: 55px;
+    position: absolute;
+}
+
+.black-left-upper-ko * {
+    width: 20px;
+    height: 120px;
+    top: 50%;
+    transform: translate(-100%,-50%);
+    position: absolute;
+}
+
+.small * {
+    position: absolute;
+    height: 20px;
+    width: 55px;
+}
+
+.b1 {
+    left: 25%;
+}
+
+.b2 {
+    left: calc(100%*15/72);
+}
+
+.b3 {
+    left: calc(100%*12/72);
+}
+
+.b4 {
+    transform:  translate(-100%, -100%);
+    top: 12.5%;
+    left: calc(100%*35/72);
+}
+
+.b5 {
+    transform:  translate(0%, -100%);
+    top: 12.5%;
+    left: calc(100%*36/72);
+}
+
+.b6 {
+    position: absolute;
+    height: 20px;
+    width: 120px;
+    top: calc(100%*1/48);
+    left: calc(100%*29.5/72);
+}
+
+.b7 {
+    transform:  translate(-100%, -100%);
+    top: calc(0);
+    left: calc(100%*35/72);
+}
+
+.b8 {
+    transform:  translate(0%, -100%);
+    top: calc(0);
+    left: calc(100%*36/72);
+}
+
+.b9 {
+    top: calc(100%*18/48);
+    left: calc(100%*54/72);
+}
+
+.b10 {
+    top: calc(100%*18/48);
+    left: calc(100%*57/72);
+}
+
+.b11 {
+    top: calc(100%*18/48);
+    left: calc(100%*60/72);
+}
+
+.b12 {
+    top: calc(100%*30/48);
+    left: calc(100%*54/72);
+    transform: translate(0,-100%);
+}
+
+.b13 {
+    top: calc(100%*30/48);
+    left: calc(100%*57/72);
+    transform: translate(0,-100%);
+}
+
+.b14 {
+    top: calc(100%*30/48);
+    left: calc(100%*60/72);
+    transform: translate(0,-100%);
+}
+
+.b15 {
+    top: calc(100%*45/48);
+    left: calc(100%*30/72);
+    height: 20px;
+    width: 55px;
+    position: absolute;
+}
+
+.b16 {
+    top: calc(100%*45/48);
+    left: calc(100%*36.5/72);
+    height: 20px;
+    width: 55px;
+    position: absolute;
+}
+
+.b17 {
+    top: calc(100%*48/48);
+    left: calc(100%*30/72);
+    height: 20px;
+    width: 120px;
+    position: absolute;
+}
+
+.b18 {
+    top: 87.5%;
+    left: calc(100%*30/72);
+    height: 20px;
+    width: 120px;
+    position: absolute;
+}
+
+.circle {
+    transform: rotate(33.5deg);
+    transform-origin: 50% 50%;
+    position: absolute;
+    position: relative;
+    top: 50%;
+}
+
+.big-circle * { 
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+}
+
+.red-circle-ko {
+    background: #cd2e3a;
+    transform: translate(-50%,-100%);
+    border-radius: 120px 120px 0 0;
+}
+
+.blue-circle-ko {
+    background: #0047a0;
+    transform: translate(-50%,0%);
+    border-radius: 0 0 120px 120px;
+}
+
+.mini-circle * {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.red-circle-ko-mini {
+    background: #cd2e3a;
+    left: calc(100%*5/12);
+}
+
+.blue-circle-ko-mini {
+    background: #0047a0;
+    left: calc(100%*7/12);
+}
+
+
+
