@@ -1,0 +1,327 @@
+@charset "UTF-8";
+.text {
+    font-size: 100px;
+    font-weight: 100;
+}
+.jp-flag {
+    width: 1200px;
+    height: 800px;
+    background: #fff;
+    position: relative;
+    border: 3px solid #000;
+}
+
+.jp-red-circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    background: #d7003a;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.UAE-flag {
+    width: 1200px;
+    height: 600px;
+    background: #ff0000;
+    position: relative;
+    border: 3px solid #000;
+}
+
+.UAE-green {
+    width: 900px;
+    height: 200px;
+    background: #00732f;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    z-index: 1;
+}
+
+.UAE-white {
+    width: 900px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    top: calc(100% /3);
+    left: 25%;
+    z-index: 1;
+}
+
+.UAE-black {
+    width: 900px;
+    height: 200px;
+    background: #000;
+    position: absolute;
+    top: calc(200%/ 3);
+    left: 25%;
+    z-index: 1;
+}
+
+.kr-flag {
+    width: 1200px;
+    height: 800px;
+    background: #fff;
+    position: relative;
+    border: 3px solid #000;
+}
+
+.kr-center {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kr-red-circle {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background: #cd2e3a;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    transform: rotate(33.69deg);
+    transform-origin: 50% 50%;
+    top: 19%;
+    left: 26%;
+}
+
+.kr-blue-circle {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background: #0047a0;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    transform: rotate(213.69deg);
+    transform-origin: 50% 50%;
+    top: 46.5%;
+    left: 7.5%;
+}
+
+.kr-red-circle-sub {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #cd2e3a;
+    border-radius: 50%;
+    z-index: 1;
+    top: 40.75%;
+    left: 36.13%;
+    transform: translate(-50%, -50%)
+}
+
+.kr-blue-circle-sub {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #0047a0;
+    border-radius: 50%;
+    z-index: 1;
+    top: 59.24%;
+    left: 63.86%;
+    transform: translate(-50%, -50%)
+}
+
+.kr-black1 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 18.3%;
+    left: 7.78%;
+}
+
+.kr-black2 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 13.333%;
+    left: 1.112%;
+}
+
+.kr-black3 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 8.333%;
+    left: -5.556%;
+}
+
+.kr-black4 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 11.111%;
+    left: 86.805%;
+}
+
+.kr-black5 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 25.556%;
+    left: 97.639%;
+}
+
+.kr-black6 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 13.33%;
+    left: 98.889%;
+}
+
+.kr-black7 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 1.111%;
+    left: 100.14%;
+}
+
+.kr-black8 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 15.56%;
+    left: 110.97%;
+}
+
+.kr-black9 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 81.67%;
+    left: 7.78%;
+}
+
+.kr-black10 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 79.44%;
+    left: -4.305%;
+}
+
+.kr-black11 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 93.89%;
+    left: 6.528%;
+}
+
+.kr-black12 {
+    width: 200px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(53.13deg);
+    top: 91.67%;
+    left: -5.556%;
+}
+
+.kr-black13 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 74.44%;
+    left: 97.64%;
+}
+
+.kr-black14 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 88.89%;
+    left: 86.81%;
+}
+
+.kr-black15 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 79.44%;
+    left: 104.30%;
+}
+
+.kr-black16 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 93.89%;
+    left: 93.47%;
+}
+
+.kr-black17 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 84.44%;
+    left: 110.97%;
+}
+
+.kr-black18 {
+    width: 91.667px;
+    height: 33.3333px;
+    position: absolute;
+    background: #000;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(126.869deg);
+    top: 98.89%;
+    left: 100.14%;
+}

@@ -1,1 +1,62 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>入力フォーム</title>
+</head>
+<body>
+    <h1 class="heading01">以下の情報を入力してください。</h1>
+    <form action="#" class="form">
+        <fieldset class="form-block">
+            <legend class="form-title">メールアドレス<span class="must">*必須</span></legend>
+            <div class="input"><input type="text" class="input-text"></div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？<span class="must">*必須</span></legend>
+            <div class="box-text">
+                <input type="radio" name="radio" id="radio1" value="1">
+                <label for="radio1">カレー</label>
+                <input type="radio" name="radio" id="radio2" value="2">
+                <label for="radio2">焼肉</label>
+                <input type="radio" name="radio" id="radio3" value="3">
+                <label for="radio3">お寿司</label>
+                <input type="radio" name="radio" id="radio4" value="4">
+                <label for="radio4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">好きなものは？<span class="must">*必須</span></legend>
+            <div class="box-text">
+                <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+                <label for="checkbox1">カレー</label>
+                <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                <label for="checkbox2">焼肉</label>
+                <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                <label for="checkbox3">お寿司</label>
+                <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                <label for="checkbox4">その他</label>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">予定を確認してください。</legend>
+            <iframe src="https://calendar.google.com/calendar/embed?src=t4kumao518%40gmail.com&ctz=Asia%2FTokyo" style="border: 3px solid #000;" width="75%" height="500px" frameborder="0" scrolling="no"></iframe>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">あなたの年齢は？</legend>
+            <div class="box-text">
+                <label for="age">年齢:</label>
+                <input type="range" name="age" id="age" min="-100" max="100" value="0" oninput="document.getElementById('rangeValue').textContent = this.value" :>
+                <span id="rangeValue">0</span>
+            </div>
+        </fieldset>
+        <fieldset class="form-block">
+            <legend class="form-title">パスワードを入力してください。</legend>
+            <div class="box-text">
+                <input type="password" id="password" name="password" class="input-text">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
