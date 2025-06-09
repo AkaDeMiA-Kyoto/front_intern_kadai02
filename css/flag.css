@@ -1,0 +1,284 @@
+@charset "UTF-8";
+.japan-rectangle {
+    width: 300px;
+    height: 150px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+.japan-circle {
+    width: 100px;
+    height: 100px;
+    background: #d7003a;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+.uae-rectangle {
+    width: 300px;
+    height: 150px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+.ured-rectangle {
+    width: 102px;
+    height: 154px;
+    background: #ff0000;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+
+.ubla-rectangle {
+    width: 202px;
+    height: 52px;
+    background: #000000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.ugre-rectangle {
+    width: 202px;
+    height: 52px;
+    background: #00732f;
+    position: absolute;
+    top: -2px;
+    left: 100px;
+}
+
+.corea-rectangle {
+    width: 288px;
+    height: 192px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+.black-rectangle1 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 144px/sqrt(13));
+    left: calc(144px - 216px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg); 
+}
+
+.black-rectangle2 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 168px/sqrt(13));
+    left: calc(144px - 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg);
+}
+
+.black-rectangle3 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 192px/sqrt(13));
+    left: calc(144px - 288px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg);  
+}
+
+.black-rectangle4 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 144px/sqrt(13));
+    left: calc(144px + 216px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg); 
+}
+
+.black-rectangle5 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 168px/sqrt(13));
+    left: calc(144px + 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg);
+}
+
+.black-rectangle6 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 192px/sqrt(13));
+    left: calc(144px + 288px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(33.41deg);  
+}
+
+.black-rectangle7 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 144px/sqrt(13));
+    left: calc(144px - 216px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg); 
+}
+
+.black-rectangle8 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 168px/sqrt(13));
+    left: calc(144px - 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg);
+}
+
+.black-rectangle9 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px + 192px/sqrt(13));
+    left: calc(144px - 288px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg);  
+}
+
+.black-rectangle10 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 144px/sqrt(13));
+    left: calc(144px + 216px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg); 
+}
+
+.black-rectangle11 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 168px/sqrt(13));
+    left: calc(144px + 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg);
+}
+
+.black-rectangle12 {
+    width: 8px;
+    height: 48px;
+    background: #000000;
+    position: absolute;
+    top: calc(96px - 192px/sqrt(13));
+    left: calc(144px + 288px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(146.59deg);  
+}
+
+.half-circle-RL {
+  width: 96px;             
+  height: 48px;            
+  background: #cd2e3a;
+  position: absolute;
+  top: 72px;
+  left: 144px;
+  transform: translate(-50%, -50%);      
+  border-top-left-radius: 48px 48px;
+  border-top-right-radius: 48px 48px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.half-circle-BL {
+  width: 96px;             
+  height: 48px;            
+  background: #0047a0;
+  position: absolute;
+  top: 120px;
+  left: 144px;
+  transform: translate(-50%, -50%);      
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 48px 48px;
+  border-bottom-right-radius: 48px 48px;
+}
+
+.half-circle-RS {
+  width: 48px;             
+  height: 24px;            
+  background: #cd2e3a;
+  position: absolute;
+  top: 108px;
+  left: 168px;
+  transform: translate(-50%, -50%);      
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 24px 24px;
+  border-bottom-right-radius: 24px 24px;
+}
+
+.half-circle-BS {
+  width: 48px;             
+  height: 24px;            
+  background: #0047a0;
+  position: absolute;
+  top: 84px;
+  left: 120px;
+  transform: translate(-50%, -50%);      
+  border-top-left-radius: 24px 24px;
+  border-top-right-radius: 24px 24px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.corea-circle {
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(33.69deg);
+    top: -63px;
+    left: 79px;
+}
+
+.white-rectangle1 {
+    width: 4px;
+    height: 8px;
+    background: #ffffff;
+    position: absolute;
+    top: calc(96px - 144px/sqrt(13));
+    left: calc(144px + 216px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(56.59deg); 
+}
+
+.white-rectangle2 {
+    width: 4px;
+    height: 8px;
+    background: #ffffff;
+    position: absolute;
+    top: calc(96px - 192px/sqrt(13));
+    left: calc(144px + 288px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(56.59deg); 
+}
+
+.white-rectangle3 {
+    width: 4px;
+    height: 8px;
+    background: #ffffff;
+    position: absolute;
+    top: calc(96px + 168px/sqrt(13));
+    left: calc(144px - 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(56.59deg); 
+}
+
+.white-rectangle4 {
+    width: 4px;
+    height: 32px;
+    background: #ffffff;
+    position: absolute;
+    top: calc(96px + 168px/sqrt(13));
+    left: calc(144px + 252px/sqrt(13));
+    transform: translate(-50%, -50%) rotate(123.41deg); 
+}
