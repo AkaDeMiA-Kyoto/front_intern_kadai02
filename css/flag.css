@@ -1,0 +1,180 @@
+.circle1 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: #d7003a;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+
+
+
+
+.container2 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    top: 300px;
+    width: 360px;
+    height: 180px;
+}
+
+.container2 > .rectangle2:nth-child(1) {
+    position: absolute;
+    background-color: #f00;
+    width: 90px;
+    height: 180px;
+}
+
+.right2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.right2 .rectangle2 {
+    width: 270px;
+    height: 60px;
+    margin-left: 25%;
+}
+
+.right2 > .rectangle2:nth-child(1) {
+    background-color: #00732f;
+}
+
+.right2 > .rectangle2:nth-child(2) {
+    background-color: #fff;
+}
+
+.right2 > .rectangle2:nth-child(3) {
+    background-color: #000;
+}
+
+
+
+
+
+.container3 {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    top: 400px;
+    width: 360px;
+    height: 240px;
+}
+
+.container31 > .circle3 {
+    position: absolute;
+}
+
+.container31 > .circle3:nth-child(1) {
+    width: 120px;
+    height: 60px;
+    background-color: #cd2e3a;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    top: 50%;
+    left: 50%;
+    transform-origin:center bottom;
+    transform: translate(-50%, -100%) rotate(calc(atan2(2,3)));
+}
+
+.container31 > .circle3:nth-child(2) {
+    width: 120px;
+    height: 60px;
+    background-color: #0047a0;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    top: 50%;
+    left: 50%;
+    transform-origin: center top;
+    transform: translate(-50%, 0%) rotate(calc(atan2(2,3)));
+}
+
+.container31 > .circle3:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    background-color: #cd2e3a;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: center right;
+    transform: translate(-100%,-50%) rotate(calc(atan2(2,3)));
+}
+
+.container31 > .circle3:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    background-color: #0047a0;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: center left;
+    transform: translate(0%,-50%) rotate(calc(atan2(2,3)));
+}
+
+.rectangle3w, .rectangle3b {
+    position: absolute;
+    left: 50%;
+}
+
+.rectangle3w {
+    background-color: #fff;
+    width: 5px;
+    height: 10px;
+}
+
+.rectangle3b {
+    background-color: #000;
+    width: 60px;
+    height: 10px;
+}
+
+.outer1 {
+    top: -10px;
+    transform-origin: 50% 130px;
+}
+
+.outer2 {
+    top: 5px;
+    transform-origin: 50% 115px;
+}
+
+.outer3 {
+    top: 20px;
+    transform-origin: 50% 100px;
+}
+
+.rightup * {
+    transform: translate(-50%,0) rotate(calc(atan2(3,2)));
+}
+
+.rightdown * {
+    transform: translate(-50%,0) rotate(calc(atan2(3,-2)));
+}
+
+.leftup * {
+    transform: translate(-50%,0) rotate(calc(atan2(-3,2)));
+}
+
+.leftdown * {
+    transform: translate(-50%,0) rotate(calc(atan2(-3,-2)));
+}
+
+.blank {
+    width: 100px;
+    height: 100px;
+    margin-top: 500px;
+    background-color: #fff;
+}
