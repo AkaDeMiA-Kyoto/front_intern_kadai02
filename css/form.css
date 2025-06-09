@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.form {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    margin-top: 20px;
+    
+}

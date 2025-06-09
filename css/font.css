@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.roboto100 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto500 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto700 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ubuntu500 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu500i {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.twitter {
+    position: relative;
+    left: 15px;
+}
+
+.search::before {
+    content: "\f002"; /* Font Awesomeのユーザーアイコン */
+    font-family: "Font Awesome 5 Free"; /* アイコン用のフォント指定 */
+    font-weight: 600; /* 5系のアイコンは weight が必要（6系は不要） */
+    margin-right:5px
+    
+}
