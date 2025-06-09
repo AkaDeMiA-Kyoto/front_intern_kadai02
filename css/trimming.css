@@ -1,1 +1,10 @@
+@charset "UTF-8";
 
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../img/man.jpg");
+  overflow: hidden;
+  background-position: 65% 45%;
+}
