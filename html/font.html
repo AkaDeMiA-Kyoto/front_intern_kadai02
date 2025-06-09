@@ -1,1 +1,58 @@
-Webフォント、FontAwsomeを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&family=Ubuntu:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0ef9b3157.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/font.css">
+    <title>Webフォント，Font Awesomeの利用</title>
+</head>
+<body>
+   <section>
+    <h2>Webフォント</h2>
+    <p>
+      default:
+      Time is money
+    </p>
+    <p class="roboto thin">
+      roboto thin 100:
+     Time is money
+    </p>
+    <p class="roboto medium">
+      roboto medium 500:
+      Time is money
+    </p>
+    <p class="roboto bold">
+      roboto bold 700:
+      Time is money
+    </p>
+    <p class="ubuntu medium">
+      ubuntu medium 500:  
+      Time is money
+    </p>
+    <p class="ubuntu italic medium">
+      ubuntu medium 500 italic:  
+      Time is money
+    </p>
+  </section>
+  <section>
+    <h2>FontAwesome の使用</h2>
+    <div>
+      HTMLタグを使って記述<br>
+      <i class="fa-brands fa-twitter"></i>
+      <!-- fontawesome内で検索し、コピペ -->
+    </div>
+    <div>
+      cssで指定して記述<br>
+      <p class="use-icon-before icon">検索</p>
+    </div>
+    <div>
+      アニメーションを使ってみる<br>
+      <i class="fa-solid fa-circle-notch fa-spin"></i> <!-- クラスに fa-spin を指定で、回転 -->
+  </section> 
+</body>
+</html>
