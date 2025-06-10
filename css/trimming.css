@@ -1,0 +1,9 @@
+@charset "UTF-8";
+img {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 80% 50%;
+    border-radius: 50%;
+}

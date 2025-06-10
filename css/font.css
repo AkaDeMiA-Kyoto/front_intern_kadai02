@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body * {
+    font-size: 30px;
+}
+
+.roboto-1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.roboto-2 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.roboto-3 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fa-icon::before {
+content: '\f002';
+font-family: 'Font Awesome 6 Free';
+font-weight: 900;
+padding: 0 7px 0 0
+}
