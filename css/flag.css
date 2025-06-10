@@ -112,62 +112,122 @@
   left: 50%;
 }
 
-.b1 {
-  width: 8px;
-  height: 48px;
-  background: #000;
+.barblack1 {
+  transform: translate(-50%, -50%) rotate(33.6deg);
 }
 
 .b1-1 {
-  transform: translate(72px, 18px) rotate(33.6deg);
-}
-
-.b1-2 {
-  transform: translate(81px, -24px) rotate(33.6deg);
-}
-
-.b1-3 {
-  transform: translate(90px, -66px) rotate(33.6deg);
-}
-
-.b1-4 {
-  transform: translate(-72px, -207px) rotate(33.6deg) ;
-}
-
-.b1-5 {
-  transform: translate(-81px, -261px) rotate(33.6deg) ;
-}
-
-.b1-6 {
-  transform: translate(-90px, -315px) rotate(33.6deg) ;
-}
-
-.b2 {
   width: 8px;
   height: 48px;
   background: #000;
+  transform: translate(96px, 126px);
+}
+
+.b1-2 {
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(106px, 78px);
+}
+
+.b1-3 {
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(116px, 30px);
+}
+
+.b1-4 {
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(-56px, -9px);
+}
+
+.b1-5 {
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(-66px, -57px);
+}
+
+.b1-6 {
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(-76px, -105px);
+}
+
+.b1-w {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  transform: translate(93px, -138px);
+}
+
+.barblack2 {
+  transform: translate(-50%, -50%) rotate(-33.6deg);
 }
 
 .b2-1 {
-  transform: translate(72px, -348px) rotate(-33.6deg);
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(273px, -117px);
+}
+
+.b2-1a {
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(273px, -113px);
 }
 
 .b2-2 {
-  transform: translate(81px, -402px) rotate(-33.6deg);
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(263px, -161px);
 }
 
 .b2-3 {
-  transform: translate(90px, -456px) rotate(-33.6deg) ;
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(253px, -209px);
+}
+
+.b2-3a {
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(253px, -205px);
 }
 
 .b2-4 {
-  transform: translate(-72px, -408px) rotate(-33.6deg) ;
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(93px, -264px);
 }
 
 .b2-5 {
-  transform: translate(-81px, -450px) rotate(-33.6deg) ;
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(83px, -312px);
+}
+
+.b2-5a {
+  width: 8px;
+  height: 22px;
+  background: #000;
+  transform: translate(83px, -308px);
 }
 
 .b2-6 {
-  transform: translate(-90px, -492px) rotate(-33.6deg) ;
+  width: 8px;
+  height: 48px;
+  background: #000;
+  transform: translate(73px, -356px);
 }
