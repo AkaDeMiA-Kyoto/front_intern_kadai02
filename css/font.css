@@ -36,7 +36,3 @@
 .F::before { 
     content: "\f002"; 
 }
-
-.fa-solid.fa-circle-notch {
-    transform: rotate(45deg);
-}
