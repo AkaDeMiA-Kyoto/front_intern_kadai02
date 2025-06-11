@@ -1,1 +1,53 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>いろいろなフォームを作ってみよう</title>
+<link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>いろいろなフォームを作ってみよう</header>
+    <fieldset>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email">
+    </fieldset>
+    <fieldset>
+        <legend>好きなものは？</legend>
+        <div>
+            <input type="radio" name="radio" id="radio1" value="1" checked>
+            <label for="radio1">カレー</label>
+            <input type="radio" name="radio" id="radio2" value="2">
+            <label for="radio2">お寿司</label>
+            <input type="radio" name="radio" id="radio3" value="3">
+            <label for="radio3">焼肉</label>
+            <input type="radio" name="radio" id="radio4" value="4">
+            <label for="radio4">その他</label>
+         </div>
+    </fieldset>
+    <fieldset>
+        <legend>好きなものは？</legend>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+            <label for="checkbox1">カレー</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+            <label for="checkbox2">お寿司</label>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+            <label for="checkbox3">焼肉</label>
+            <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+            <label for="checkbox4">その他</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <label for="start">予約日</label>
+        <input type="date" id="start">
+    </fieldset>
+    <fieldset>
+        <label for="range">range</label>
+        <input type="range" id="range" min="0" max="100">
+    </fieldset>
+    <fieldset>
+        <label for="pass">パスワード（8文字以上）</label>
+        <input type="password" id="pass" minlength="8" required>
+    </fieldset>
+</body>
+</html>

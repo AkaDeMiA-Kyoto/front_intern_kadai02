@@ -1,0 +1,18 @@
+@charset "UTF-8" ;
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle img {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
