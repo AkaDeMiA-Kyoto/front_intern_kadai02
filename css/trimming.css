@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.circle-img {
+    width: 400px;          
+    height: 400px;         
+    object-fit: cover;     
+    border-radius: 50%;    
+    display: block;
+    object-position: 70% 10%;
+}
