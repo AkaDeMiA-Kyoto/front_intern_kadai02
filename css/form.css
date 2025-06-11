@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.form-block {
+    margin-bottom: 25px;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.required {
+    display: inline-block;
+    font-size: 1.0rem;
+    color: #f32938;
+    margin-left: 8px;
+}
+

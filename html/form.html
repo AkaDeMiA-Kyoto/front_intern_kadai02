@@ -1,1 +1,68 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, userscarable=yes, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>フォーム作成</title>
+</head>
+<body>
+    <header><h1>さまざまなフォームを作成</h1></header>
+    <main>
+        <form action="#" class="form">
+            <section>
+                <fieldset class="form-block">
+                    <legend class="form-title">e-mailアドレスを入力してください<span class="required">*必須</span></legend>
+                    <div class="form-input"><input type="email" id="email" name="email" class="text-input"></div>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset class="form-block">
+                    <legend class="form-title">好きなものは？</legend>
+                    <div>
+                        <input type="radio" name="radio" id="radio1" value="1" checked>
+                        <label for="radio1">カレー</label>
+                        <input type="radio" name="radio" id="radio2" value="2">
+                        <label for="radio2">お寿司</label>
+                        <input type="radio" name="radio" id="radio3" value="3">
+                        <label for="radio3">焼肉</label>
+                        <input type="radio" name="radio" id="radio4" value="4">
+                        <label for="radio4">その他</label>
+                    </div>
+                </fieldset>
+            </section>
+            <section>
+                <label class="form-title">いつ食べたいかを入力してください。</label>
+                    <input id="party" type="datetime-local" name="eating-date" value="2025-06-11T00:00" />
+            </section>
+            <section>
+                <fieldset class="form-block">
+                    <legend class="form-title">好きなものは？</legend>
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox1" value="1" checked>
+                        <label for="checkbox1">カレー</label>
+                        <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+                        <label for="checkbox2">お寿司</label>
+                        <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+                        <label for="checkbox3">焼肉</label>
+                        <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+                        <label for="checkbox4">その他</label>
+                    </div>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset class="form-block">
+                    <legend class="form-title">どれくらい食べたいですか？<span class="required">*必須</span></legend>
+                    <div><input type="range" id="extent" name="extent" min="0" max="10" step="1" class="volume-input"></div>
+                </fieldset>
+            </section>
+            <section>
+                <div class="form-input">
+                    <label for="pass" class="form-title">パスワード<span class="required">*(8文字以上)</span></label>
+                    <input type="password" id="pass" name="password" minlength="8" required>
+                </div>
+            </section>
+        </form>
+    </main> 
+</body>
+</html>
