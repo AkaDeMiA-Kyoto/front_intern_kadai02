@@ -28,30 +28,30 @@
 }
 
 .greenbox {
-    width: 444px;
+    width: 500px;
     height: 111px;
     background-color: #00732f;
     position: relative;
     top: 0px;
-    left: 222px;
+    left: 166px;
 }
 
 .whitebox {
-    width: 444px;
+    width: 500px;
     height: 111px;
     background-color: #ffffff;
     position: relative;
     top: 0px;
-    left: 222px;
+    left: 166px;
 }
 
 .blackbox {
-    width: 444px;
+    width: 500px;
     height: 111px;
     background-color: #000000;
     position: relative;
     top: 0px;
-    left: 222px;
+    left: 166px;
 }
 
 
@@ -114,11 +114,11 @@
     transform-origin: 50% 50%;
 }
 
-.nori1 {
+.blacksheet1 {
     width: 80px;
     height: 120px;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 180px;
     left: 100px;
     background-color: #000;
     transform: rotate(atan(2/3));
@@ -145,11 +145,11 @@
     border: 0px;
 }
 
-.nori2 {
+.blacksheet2 {
     width: 80px;
     height: 120px;
-    position: relative;
-    top: 80px;
+    position: absolute;
+    top: 180px;
     left: 100px;
     background-color: #000;
     transform: rotate(atan(-2/3));
@@ -186,11 +186,11 @@
     border-color: transparent;
 }
 
-.nori3 {
+.blacksheet3 {
     width: 80px;
     height: 120px;
-    position: relative;
-    top: -40px;
+    position: absolute;
+    top: 180px;
     left: 540px;
     background-color: #000;
     transform: rotate(atan(2/3));
@@ -248,11 +248,11 @@
 }
 
 
-.nori4 {
+.blacksheet4 {
     width: 80px;
     height: 120px;
-    position: relative;
-    top: -160px;
+    position: absolute;
+    top: 180px;
     left: 540px;
     background-color: #000;
     transform: rotate(atan(-2/3));
