@@ -1,1 +1,66 @@
-いろいろなフォームを使ってみよう
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0">
+<title>いろいろなフォームを使ってみよう</title>
+    </head>
+    <link rel="stylesheet" href="C:\Users\chiro\demia_intern_front\front_intern_kadai02\css\form.css">
+    <body>
+<div class="taro">
+    フォームの作成
+</div>
+<fieldset class="form-block">
+          <legend class="form-title">好きな食べ物は？</legend>
+          <div class="form-input">
+            <input type="checkbox" name="checkbox" id="checkbox1" value="1">
+            <label for="checkbox1">カレー</label>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="2">
+            <label for="checkbox2">焼肉</label>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="3">
+            <label for="checkbox3">お寿司</label>
+            <input type="checkbox" name="checkbox" id="checkbox4" value="4">
+            <label for="checkbox4">その他</label>
+          </div>
+</fieldset> 
+<fieldset class="form-block">
+          <legend class="form-title">好きな食べ物は？</legend>
+          <div class="form-input">
+            <input type="radio" name="checkbox" id="radio1" value="1">
+            <label for="radio1">カレー</label>
+            <input type="radio" name="checkbox" id="radio2" value="2">
+            <label for="radio2">焼肉</label>
+            <input type="radio" name="checkbox" id="radio3" value="3">
+            <label for="radio3">お寿司</label>
+            <input type="radio" name="checkbox" id="radio4" value="4">
+            <label for="radio4">その他</label>
+          </div>
+</fieldset>
+<fieldset class="form-block">
+          <legend class="form-title">メールアドレス<span class="must">*必須</span></legend>
+          <div class="form-input"><input type="text" class="input-text"></div>
+</fieldset>
+<fieldset class="form-block">
+          <legend class="form-title">メールアドレス確認用<span class="must">*必須</span></legend>
+          <div class="form-input"><input type="text" class="input-text"></div>
+</fieldset>
+<fieldset class="form-block">
+    <legend class="form-title">カレンダー</legend>
+    <input type="date" min="2005-05-11" max="2025-06-18">
+</fieldset>
+<fieldset class="form-block">
+    <legend class="form-title">range</legend>
+    <input type="range" id="volume" name="volume" min="0" max="15">
+    <label for="volume">Volume</label>
+</fieldset>
+<fieldset class="form-block">
+    <legend class="form-title">パスワード入力</legend>
+    <input type="password" maxlength="20">
+    <label for="password"></label><br>
+</fieldset>
+<div class="submit">
+    <input type="submit" value="送信する">
+</div>
+    </body>
+</html>
